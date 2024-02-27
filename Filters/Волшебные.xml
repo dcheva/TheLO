@@ -1,0 +1,54 @@
+﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Волшебные</name>
+  <filterIcon>23</filterIcon>
+  <filterIconColor>16</filterIconColor>
+  <description>Спрятать белые</description>
+  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
+  <lootFilterVersion>0</lootFilterVersion>
+  <rules>
+    <Rule>
+      <type>HIDE</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>NORMAL</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+            <EquipmentType>IDOL_4x1</EquipmentType>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+            <EquipmentType>IDOL_2x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+  </rules>
+</ItemFilter>
