@@ -5,8 +5,8 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   31.0.15.2824
+    VRAM:     5981 MB
+    Driver:   31.0.15.4633
 The referenced script (WFX_LightCurves) on this Behaviour is missing!
 UnityEngine.Resources:Load(String)
 AbilityManager:get()
@@ -39,68 +39,57 @@ AbilityManager:EditorReset()
 [ line 334] 
 (Filename:  Line: 334)
 
-Uploading Crash Report
-NullReferenceException: Object reference not set to an instance of an object.
-  at Cysharp.Threading.Tasks.PlayerLoopHelper.AddAction (Cysharp.Threading.Tasks.PlayerLoopTiming timing, Cysharp.Threading.Tasks.IPlayerLoopItem action) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.Create (System.Func`1[TResult] predicate, Cysharp.Threading.Tasks.PlayerLoopTiming timing, System.Threading.CancellationToken cancellationToken, System.Int16& token) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask.WaitUntil (System.Func`1[TResult] predicate, Cysharp.Threading.Tasks.PlayerLoopTiming timing, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeNetworkManagers>d__110.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider.InitializeNetworkManagers () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider.ResetInstances () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider..cctor () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.SceneState.Networking.SceneGraphNetworkSyncManager.EditorReset () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Services.<InitializeNetworkManagers>d__110:MoveNext()
-LE.Services.ServiceProvider:InitializeNetworkManagers()
-LE.Services.ServiceProvider:ResetInstances()
-LE.Services.ServiceProvider:.cctor()
-LE.SceneState.Networking.SceneGraphNetworkSyncManager:EditorReset()
- 
-(Filename: currently not available on il2cpp Line: -1)
+Command line options:
+	IsDiagnosticLoggingEnabled = False
+	ConnectDirectlyToGameServer = False
+	DisableAutoLoginWithSteam = False
+	GraphicsOptionsFile = 
+	UseLidgren = False
+	OfflineMode = True
+	GameServerIP = 
+	GameServerPort = 
+	PlayFabTitleId = 
+	LidgrenPort = 
+	EnableQueues = False
+	UseNativeProfiler = False
+	NativeProfilerConfig = 
+	Profile = 
 
-Uploading Crash Report
-NullReferenceException: Object reference not set to an instance of an object.
-  at Cysharp.Threading.Tasks.PlayerLoopHelper.AddAction (Cysharp.Threading.Tasks.PlayerLoopTiming timing, Cysharp.Threading.Tasks.IPlayerLoopItem action) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.Create (System.Func`1[TResult] predicate, Cysharp.Threading.Tasks.PlayerLoopTiming timing, System.Threading.CancellationToken cancellationToken, System.Int16& token) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask.WaitUntil (System.Func`1[TResult] predicate, Cysharp.Threading.Tasks.PlayerLoopTiming timing, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeCosmosConfiguration>d__104.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeServices>d__103.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider.ResetInstances () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider..cctor () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.SceneState.Networking.SceneGraphNetworkSyncManager.EditorReset () [0x00000] in <00000000000000000000000000000000>:0 
---- End of stack trace from previous location where exception was thrown ---
-  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask+ExceptionResultSource`1[T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeServices>d__103.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider.ResetInstances () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider..cctor () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.SceneState.Networking.SceneGraphNetworkSyncManager.EditorReset () [0x00000] in <00000000000000000000000000000000>:0 
---- End of stack trace from previous location where exception was thrown ---
-  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskExtensions.Forget (Cysharp.Threading.Tasks.UniTask task) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider.ResetInstances () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider..cctor () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.SceneState.Networking.SceneGraphNetworkSyncManager.EditorReset () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-Cysharp.Threading.Tasks.UniTaskExtensions:Forget(UniTask)
-LE.Services.ServiceProvider:ResetInstances()
-LE.Services.ServiceProvider:.cctor()
-LE.SceneState.Networking.SceneGraphNetworkSyncManager:EditorReset()
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+LE.Core.CommandLine:GetCommandLineOptions(IEnumerable`1)
+System.Func`1:Invoke()
+System.Lazy`1:CreateValue()
+System.Lazy`1:LazyInitValue()
+System.Lazy`1:get_Value()
+EHG.Multiplayer.GameplayEnvironment:.cctor()
+VFXManager:BuildLookupTables()
  
-(Filename: currently not available on il2cpp Line: -1)
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Instantiation] Loaded Serializers:
-	PlayOneShotSound	-	Generated.PlayOneShotSoundSerializerGenerated
+	UnityEngine.BoxCollider	-	LE.Caching.CustomSerializers.BoxColliderSerializer
+	UnityEngine.CapsuleCollider	-	LE.Caching.CustomSerializers.CapsuleColliderSerializer
+	ChanceToDamageEnemyWhenHit	-	LE.Caching.CustomSerializers.ChanceToDamageEnemyWhenHitSerializer
+	DamageAllyOnHit	-	LE.Caching.CustomSerializers.DamageAllyOnHitSerializer
+	DamageCreatorMinionOnHit	-	LE.Caching.CustomSerializers.DamageCreatorMinionOnHitSerializer
+	DamageEnemiesWithBeam	-	LE.Caching.CustomSerializers.DamageEnemiesWithBeamSerializer
+	DamageEnemyOnHit	-	LE.Caching.CustomSerializers.DamageEnemyOnHitSerializer
+	OnDeathStatusDamage	-	LE.Caching.CustomSerializers.OnDeathStatusDamageSerializer
+	RepeatedlyDamageEnemiesWithinArc	-	LE.Caching.CustomSerializers.RepeatedlyDamageEnemiesWithinArcSerializer
+	RepeatedlyDamageEnemiesWithinRadius	-	LE.Caching.CustomSerializers.RepeatedlyDamageEnemiesWithinRadiusSerializer
+	RepeatedlyDamageParent	-	LE.Caching.CustomSerializers.RepeatedlyDamageParentSerializer
+	StatusDamage	-	LE.Caching.CustomSerializers.StatusDamageSerializer
+	UnityEngine.SphereCollider	-	LE.Caching.CustomSerializers.SphereColliderSerializer
+	UnityEngine.Transform	-	LE.Caching.CustomSerializers.TransformSerializer
+	HitSoundReceiver	-	Generated.HitSoundReceiverSerializerGenerated
+	PlaySoundOnHit	-	Generated.PlaySoundOnHitSerializerGenerated
+	HitSoundEmitter	-	Generated.HitSoundEmitterSerializerGenerated
 	SelfDestroyer	-	Generated.SelfDestroyerSerializerGenerated
 	DestroyAfterDuration	-	Generated.DestroyAfterDurationSerializerGenerated
 	RotatesToAngle	-	Generated.RotatesToAngleSerializerGenerated
 	DetachParticleSystemsOnDeath	-	Generated.DetachParticleSystemsOnDeathSerializerGenerated
 	StartsAtTarget	-	Generated.StartsAtTargetSerializerGenerated
-	RFX1_LightCurves	-	Generated.RFX1_LightCurvesSerializerGenerated
 	StartForwardsFromCreator	-	Generated.StartForwardsFromCreatorSerializerGenerated
 	VelocityForDuration	-	Generated.VelocityForDurationSerializerGenerated
 	RFX4_Turbulence	-	Generated.RFX4_TurbulenceSerializerGenerated
@@ -115,14 +104,294 @@ LE.SceneState.Networking.SceneGraphNetworkSyncManager:EditorReset()
 	FT_LineHitPoint	-	Generated.FT_LineHitPointSerializerGenerated
 	FT_LineRender	-	Generated.FT_LineRenderSerializerGenerated
 	StartsTowardsTarget	-	Generated.StartsTowardsTargetSerializerGenerated
-	MagicalFX.FX_Rotation	-	Generated.FX_RotationSerializerGenerated
 	CreateOnDeath	-	Generated.CreateOnDeathSerializerGenerated
 	StartsAboveTarget	-	Generated.StartsAboveTargetSerializerGenerated
 	StartAwayFromTarget	-	Generated.StartAwayFromTargetSerializerGenerated
-	UnityEngine.BoxCollider	-	LE.Caching.CustomSerializers.BoxColliderSerializer
-	UnityEngine.CapsuleCollider	-	LE.Caching.CustomSerializers.CapsuleColliderSerializer
-	UnityEngine.SphereCollider	-	LE.Caching.CustomSerializers.SphereColliderSerializer
-	UnityEngine.Transform	-	LE.Caching.CustomSerializers.TransformSerializer
+	ExtraProjectiles	-	Generated.ExtraProjectilesSerializerGenerated
+	RaycastAbilityMover	-	Generated.RaycastAbilityMoverSerializerGenerated
+	AbilityObjectIndicator	-	Generated.AbilityObjectIndicatorSerializerGenerated
+	AlignmentManager	-	Generated.AlignmentManagerSerializerGenerated
+	HitDetector	-	Generated.HitDetectorSerializerGenerated
+	DestroyOnInanimateCollison	-	Generated.DestroyOnInanimateCollisonSerializerGenerated
+	DestroyOnFailingToPierceEnemy	-	Generated.DestroyOnFailingToPierceEnemySerializerGenerated
+	CreationReferences	-	Generated.CreationReferencesSerializerGenerated
+	LocationDetector	-	Generated.LocationDetectorSerializerGenerated
+	AbilityObjectConstructor	-	Generated.AbilityObjectConstructorSerializerGenerated
+	AttachAttachableOnEnemyHit	-	Generated.AttachAttachableOnEnemyHitSerializerGenerated
+	ChanceToApplyAilmentsOnHit	-	Generated.ChanceToApplyAilmentsOnHitSerializerGenerated
+	AbilityMover	-	Generated.AbilityMoverSerializerGenerated
+	Stats	-	Generated.StatsSerializerGenerated
+	CastAfterDuration	-	Generated.CastAfterDurationSerializerGenerated
+	DestroyIfCasterDisabled	-	Generated.DestroyIfCasterDisabledSerializerGenerated
+	DestroyIfCasterExistsUsingAbilityState	-	Generated.DestroyIfCasterExistsUsingAbilityStateSerializerGenerated
+	CreateVfxOnDeath	-	Generated.CreateVfxOnDeathSerializerGenerated
+	ShakeScreenOnDeath	-	Generated.ShakeScreenOnDeathSerializerGenerated
+	ShakeScreenOnHit	-	Generated.ShakeScreenOnHitSerializerGenerated
+	HomingMovement	-	Generated.HomingMovementSerializerGenerated
+	CreateAbilityObjectOnDeath	-	Generated.CreateAbilityObjectOnDeathSerializerGenerated
+	ChangeDamageModifierOverTime	-	Generated.ChangeDamageModifierOverTimeSerializerGenerated
+	ShakeScreenOnEnable	-	Generated.ShakeScreenOnEnableSerializerGenerated
+	CreateAbilityObjectOnNewAllyHit	-	Generated.CreateAbilityObjectOnNewAllyHitSerializerGenerated
+	CreateAbilityObjectOnNewEnemtHit	-	Generated.CreateAbilityObjectOnNewEnemtHitSerializerGenerated
+	AbyssalEchoesMutator	-	Generated.AbyssalEchoesMutatorSerializerGenerated
+	Pierce	-	Generated.PierceSerializerGenerated
+	RestoreLuminanceWhenReachedTarget	-	Generated.RestoreLuminanceWhenReachedTargetSerializerGenerated
+	MoveTowardsCreator	-	Generated.MoveTowardsCreatorSerializerGenerated
+	IlluminateEnemiesOnHit	-	Generated.IlluminateEnemiesOnHitSerializerGenerated
+	RepeatedlyToggleColliders	-	Generated.RepeatedlyToggleCollidersSerializerGenerated
+	AttachToCreatorOnCreation	-	Generated.AttachToCreatorOnCreationSerializerGenerated
+	DestroySelfOnParentDeath	-	Generated.DestroySelfOnParentDeathSerializerGenerated
+	SendEnemiesForwardInTimeOnHit	-	Generated.SendEnemiesForwardInTimeOnHitSerializerGenerated
+	BuffParent	-	Generated.BuffParentSerializerGenerated
+	Stance	-	Generated.StanceSerializerGenerated
+	BuffCreatorAfterDuration	-	Generated.BuffCreatorAfterDurationSerializerGenerated
+	ConditionHandler	-	Generated.ConditionHandlerSerializerGenerated
+	ApplyAilmentToCreator	-	Generated.ApplyAilmentToCreatorSerializerGenerated
+	CleanseAilmentsOnDeath	-	Generated.CleanseAilmentsOnDeathSerializerGenerated
+	MoveToNearestEnemyOnCreation	-	Generated.MoveToNearestEnemyOnCreationSerializerGenerated
+	CreateAtTargetLocationOnCreation	-	Generated.CreateAtTargetLocationOnCreationSerializerGenerated
+	AbilityParabolicMovement	-	Generated.AbilityParabolicMovementSerializerGenerated
+	RepeatedlyAbsorbMinion	-	Generated.RepeatedlyAbsorbMinionSerializerGenerated
+	SummonEntityOnDeath	-	Generated.SummonEntityOnDeathSerializerGenerated
+	BuffCreator	-	Generated.BuffCreatorSerializerGenerated
+	ExistsWhileChannelling	-	Generated.ExistsWhileChannellingSerializerGenerated
+	AssembleAbominationAdapter	-	Generated.AssembleAbominationAdapterSerializerGenerated
+	BuffOnAllyHit	-	Generated.BuffOnAllyHitSerializerGenerated
+	AttachRefreshableVFXOnHit	-	Generated.AttachRefreshableVFXOnHitSerializerGenerated
+	TrailTracker	-	Generated.TrailTrackerSerializerGenerated
+	RepeatedlyApplyAilmentsInRadius	-	Generated.RepeatedlyApplyAilmentsInRadiusSerializerGenerated
+	CastAtRandomPointAfterDuration	-	Generated.CastAtRandomPointAfterDurationSerializerGenerated
+	DefineStartDirection	-	Generated.DefineStartDirectionSerializerGenerated
+	DestroyAfterDurationAfterReachingTargetLocation	-	Generated.DestroyAfterDurationAfterReachingTargetLocationSerializerGenerated
+	StopAtTargetLocation	-	Generated.StopAtTargetLocationSerializerGenerated
+	RandomiseScaleOnStart	-	Generated.RandomiseScaleOnStartSerializerGenerated
+	CreateOnHit	-	Generated.CreateOnHitSerializerGenerated
+	ResizeBasedOnParentCollider	-	Generated.ResizeBasedOnParentColliderSerializerGenerated
+	DestroyOnParentReachingAbilityMovementDestination	-	Generated.DestroyOnParentReachingAbilityMovementDestinationSerializerGenerated
+	RepeatedlyPullEnemiesWithinRadius	-	Generated.RepeatedlyPullEnemiesWithinRadiusSerializerGenerated
+	AttachToNearestEnemyOnCreation	-	Generated.AttachToNearestEnemyOnCreationSerializerGenerated
+	AttachTransformToCreatorOnCreation	-	Generated.AttachTransformToCreatorOnCreationSerializerGenerated
+	DestroyOnCasterDeath	-	Generated.DestroyOnCasterDeathSerializerGenerated
+	DestroyAfterMovingOutOfRange	-	Generated.DestroyAfterMovingOutOfRangeSerializerGenerated
+	MoveToParentColliderCentre	-	Generated.MoveToParentColliderCentreSerializerGenerated
+	GenericBoneGolemSkillMutator	-	Generated.GenericBoneGolemSkillMutatorSerializerGenerated
+	ChangeSizeOverTime	-	Generated.ChangeSizeOverTimeSerializerGenerated
+	RepeatedlyHitsTargets	-	Generated.RepeatedlyHitsTargetsSerializerGenerated
+	BuffCreatorOnDeathPerHit	-	Generated.BuffCreatorOnDeathPerHitSerializerGenerated
+	BuffCreatorOnDeath	-	Generated.BuffCreatorOnDeathSerializerGenerated
+	KnockBackOnHit	-	Generated.KnockBackOnHitSerializerGenerated
+	AttachToAllyOnCreation	-	Generated.AttachToAllyOnCreationSerializerGenerated
+	RandomiseTargetLocation	-	Generated.RandomiseTargetLocationSerializerGenerated
+	AbilityCurveMovement	-	Generated.AbilityCurveMovementSerializerGenerated
+	ColliderChanger	-	Generated.ColliderChangerSerializerGenerated
+	HealParent	-	Generated.HealParentSerializerGenerated
+	MarkPreferredTargetForMinions	-	Generated.MarkPreferredTargetForMinionsSerializerGenerated
+	CanOnlyBeOnOneTarget	-	Generated.CanOnlyBeOnOneTargetSerializerGenerated
+	AttachToAllAlliesInRadiusOnCreation	-	Generated.AttachToAllAlliesInRadiusOnCreationSerializerGenerated
+	ReturnToCasterAfterDuration	-	Generated.ReturnToCasterAfterDurationSerializerGenerated
+	ReturnOnInanimateCollision	-	Generated.ReturnOnInanimateCollisionSerializerGenerated
+	BloodSplatterMutator	-	Generated.BloodSplatterMutatorSerializerGenerated
+	TauntOnHit	-	Generated.TauntOnHitSerializerGenerated
+	GiveCreatorResourcesOnHit	-	Generated.GiveCreatorResourcesOnHitSerializerGenerated
+	GenericAreaSkillMutator	-	Generated.GenericAreaSkillMutatorSerializerGenerated
+	HitsTargets	-	Generated.HitsTargetsSerializerGenerated
+	ColorChangeRaptor	-	Generated.ColorChangeRaptorSerializerGenerated
+	GenericSabertoothSkillMutator	-	Generated.GenericSabertoothSkillMutatorSerializerGenerated
+	RepeatedlyHealAlliesWithinRadius	-	Generated.RepeatedlyHealAlliesWithinRadiusSerializerGenerated
+	RogueShadow	-	Generated.RogueShadowSerializerGenerated
+	FadeParticlesWhenDurationIsLow	-	Generated.FadeParticlesWhenDurationIsLowSerializerGenerated
+	TargetFinder	-	Generated.TargetFinderSerializerGenerated
+	CreateAtRandom	-	Generated.CreateAtRandomSerializerGenerated
+	LimitedPickupable	-	Generated.LimitedPickupableSerializerGenerated
+	SkillTrailSpawner	-	Generated.SkillTrailSpawnerSerializerGenerated
+	DeathSealWaveMutator	-	Generated.DeathSealWaveMutatorSerializerGenerated
+	CreateResourceReturnAbilityObjectsForCorpsesInArea	-	Generated.CreateResourceReturnAbilityObjectsForCorpsesInAreaSerializerGenerated
+	MineTrigger	-	Generated.MineTriggerSerializerGenerated
+	MoveCreatorToTargetOnDeath	-	Generated.MoveCreatorToTargetOnDeathSerializerGenerated
+	StartsNearTarget	-	Generated.StartsNearTargetSerializerGenerated
+	MoveCreatorToPositionOnDeath	-	Generated.MoveCreatorToPositionOnDeathSerializerGenerated
+	ChangeSizeOverTimeScaledWithStat	-	Generated.ChangeSizeOverTimeScaledWithStatSerializerGenerated
+	DetonateGroundExplosionMutator	-	Generated.DetonateGroundExplosionMutatorSerializerGenerated
+	VoidRiftMutator	-	Generated.VoidRiftMutatorSerializerGenerated
+	NovaMutator	-	Generated.NovaMutatorSerializerGenerated
+	RepeatedlyBuffInRadius	-	Generated.RepeatedlyBuffInRadiusSerializerGenerated
+	HealAlliesOnHit	-	Generated.HealAlliesOnHitSerializerGenerated
+	RandomiseSpeed	-	Generated.RandomiseSpeedSerializerGenerated
+	BeamColliderScaler	-	Generated.BeamColliderScalerSerializerGenerated
+	ModifyDamageOnRotation	-	Generated.ModifyDamageOnRotationSerializerGenerated
+	BasicMeleeMutator	-	Generated.BasicMeleeMutatorSerializerGenerated
+	AcceleratingHealthDrain	-	Generated.AcceleratingHealthDrainSerializerGenerated
+	WanderingSpiritMutator	-	Generated.WanderingSpiritMutatorSerializerGenerated
+	RepeatedlyShakeScreen	-	Generated.RepeatedlyShakeScreenSerializerGenerated
+	EarthquakeAftershockMutator	-	Generated.EarthquakeAftershockMutatorSerializerGenerated
+	EarthquakeMutator	-	Generated.EarthquakeMutatorSerializerGenerated
+	EarthquakeSlamMutator	-	Generated.EarthquakeSlamMutatorSerializerGenerated
+	EarthSpikesAoEMutator	-	Generated.EarthSpikesAoEMutatorSerializerGenerated
+	PhysicsExplosion	-	Generated.PhysicsExplosionSerializerGenerated
+	BuffCreatorOnCreation	-	Generated.BuffCreatorOnCreationSerializerGenerated
+	AbilityEventListener	-	Generated.AbilityEventListenerSerializerGenerated
+	DestroyAfterDurationScaledWithStat	-	Generated.DestroyAfterDurationScaledWithStatSerializerGenerated
+	DestroyGameobjectInteraction	-	Generated.DestroyGameobjectInteractionSerializerGenerated
+	ComplexGenericMutator	-	Generated.ComplexGenericMutatorSerializerGenerated
+	RandomiseDirection	-	Generated.RandomiseDirectionSerializerGenerated
+	SceneValueReachedListener	-	Generated.SceneValueReachedListenerSerializerGenerated
+	MoveCreatorRelativeToSceneLocations	-	Generated.MoveCreatorRelativeToSceneLocationsSerializerGenerated
+	FixedGlobalRotation	-	Generated.FixedGlobalRotationSerializerGenerated
+	MoveToGroundOnStart	-	Generated.MoveToGroundOnStartSerializerGenerated
+	CreateLimitedOnDeath	-	Generated.CreateLimitedOnDeathSerializerGenerated
+	ChangeParameterOnEvent	-	Generated.ChangeParameterOnEventSerializerGenerated
+	RandomNavmeshMovement	-	Generated.RandomNavmeshMovementSerializerGenerated
+	CreatePortalOnDeath	-	Generated.CreatePortalOnDeathSerializerGenerated
+	ToggleCollidersAfterDuration	-	Generated.ToggleCollidersAfterDurationSerializerGenerated
+	ActivateCollidersOnStart	-	Generated.ActivateCollidersOnStartSerializerGenerated
+	FreezeEnemyOnHit	-	Generated.FreezeEnemyOnHitSerializerGenerated
+	ClearHitListAfterDuration	-	Generated.ClearHitListAfterDurationSerializerGenerated
+	StoneTitanHeartBossBeamReverseMutator	-	Generated.StoneTitanHeartBossBeamReverseMutatorSerializerGenerated
+	StartsAtRandomSceneLocation	-	Generated.StartsAtRandomSceneLocationSerializerGenerated
+	DestroyOnReachingTargetLocation	-	Generated.DestroyOnReachingTargetLocationSerializerGenerated
+	DamageCreatorOnCreation	-	Generated.DamageCreatorOnCreationSerializerGenerated
+	DestroyOnNewSceneLoaded	-	Generated.DestroyOnNewSceneLoadedSerializerGenerated
+	HomingOnNavmesh	-	Generated.HomingOnNavmeshSerializerGenerated
+	SetSceneValueAfterDelay	-	Generated.SetSceneValueAfterDelaySerializerGenerated
+	ResetCooldownForSpecificAbilitiesOnStart	-	Generated.ResetCooldownForSpecificAbilitiesOnStartSerializerGenerated
+	StunEnemyOnHit	-	Generated.StunEnemyOnHitSerializerGenerated
+	BallistaExplosionMutator	-	Generated.BallistaExplosionMutatorSerializerGenerated
+	HarpoonEnemyOnHit	-	Generated.HarpoonEnemyOnHitSerializerGenerated
+	RepeatedlyHitsTargetsInBox	-	Generated.RepeatedlyHitsTargetsInBoxSerializerGenerated
+	ModifyDamageOnStart	-	Generated.ModifyDamageOnStartSerializerGenerated
+	TriggerSelfDestroyerInteraction	-	Generated.TriggerSelfDestroyerInteractionSerializerGenerated
+	ResurrectParentOnDeath	-	Generated.ResurrectParentOnDeathSerializerGenerated
+	SplitProjectiles	-	Generated.SplitProjectilesSerializerGenerated
+	DisableUIPanel	-	Generated.DisableUIPanelSerializerGenerated
+	DestroyOnFailingToPierceAlly	-	Generated.DestroyOnFailingToPierceAllySerializerGenerated
+	GiveParentNonAilmentUIBuff	-	Generated.GiveParentNonAilmentUIBuffSerializerGenerated
+	CleanseCreatorOnStart	-	Generated.CleanseCreatorOnStartSerializerGenerated
+	VoidNagasaBossDoTAreaMutator	-	Generated.VoidNagasaBossDoTAreaMutatorSerializerGenerated
+	AttachToPlayer	-	Generated.AttachToPlayerSerializerGenerated
+	ChangePositionOverTime	-	Generated.ChangePositionOverTimeSerializerGenerated
+	ForceCasterToWaitOnDeath	-	Generated.ForceCasterToWaitOnDeathSerializerGenerated
+	DisableCollidersAfterDuration	-	Generated.DisableCollidersAfterDurationSerializerGenerated
+	TimerListener	-	Generated.TimerListenerSerializerGenerated
+	ModifyDamageStatsHolderInteraction	-	Generated.ModifyDamageStatsHolderInteractionSerializerGenerated
+	GiveCreatorResourcesOnCollisionWithCreator	-	Generated.GiveCreatorResourcesOnCollisionWithCreatorSerializerGenerated
+	AvalancheMutator	-	Generated.AvalancheMutatorSerializerGenerated
+	ApplyAilmentToParent	-	Generated.ApplyAilmentToParentSerializerGenerated
+	DestroyIfNotAbilityOfCaster	-	Generated.DestroyIfNotAbilityOfCasterSerializerGenerated
+	ReplaceCasterMaterialUntilDestroyed	-	Generated.ReplaceCasterMaterialUntilDestroyedSerializerGenerated
+	CreatorTakesDamageOnSkillUse	-	Generated.CreatorTakesDamageOnSkillUseSerializerGenerated
+	ParentLosesHealthPercentageOnDeath	-	Generated.ParentLosesHealthPercentageOnDeathSerializerGenerated
+	SpiralMovement	-	Generated.SpiralMovementSerializerGenerated
+	TrailScaler	-	Generated.TrailScalerSerializerGenerated
+	RetaliateWhenParentHit	-	Generated.RetaliateWhenParentHitSerializerGenerated
+	RepeatedlyGiveCreatorResources	-	Generated.RepeatedlyGiveCreatorResourcesSerializerGenerated
+	MinionUsesAbilityOnStart	-	Generated.MinionUsesAbilityOnStartSerializerGenerated
+	RepeatedlyGiveParentResources	-	Generated.RepeatedlyGiveParentResourcesSerializerGenerated
+	ChanceToCreateAbilityObjectOnNewEnemyHit	-	Generated.ChanceToCreateAbilityObjectOnNewEnemyHitSerializerGenerated
+	RepeatedlyCastAbility	-	Generated.RepeatedlyCastAbilitySerializerGenerated
+	DestroyIfNotAboveGround	-	Generated.DestroyIfNotAboveGroundSerializerGenerated
+	ExitStance	-	Generated.ExitStanceSerializerGenerated
+	PreparedVFXPool	-	Generated.PreparedVFXPoolSerializerGenerated
+	FrostboltMutator	-	Generated.FrostboltMutatorSerializerGenerated
+	AvalancheSnowballMutator	-	Generated.AvalancheSnowballMutatorSerializerGenerated
+	IceThornsMutator	-	Generated.IceThornsMutatorSerializerGenerated
+	LightningSpearMutator	-	Generated.LightningSpearMutatorSerializerGenerated
+	JudgementAoEMutator	-	Generated.JudgementAoEMutatorSerializerGenerated
+	ConsecratedGroundMutator	-	Generated.ConsecratedGroundMutatorSerializerGenerated
+	RotateAroundUp	-	Generated.RotateAroundUpSerializerGenerated
+	LethalMirageDelayMutator	-	Generated.LethalMirageDelayMutatorSerializerGenerated
+	StormLightningMutator	-	Generated.StormLightningMutatorSerializerGenerated
+	LungeEndMutator	-	Generated.LungeEndMutatorSerializerGenerated
+	EnableCollidersAfterDuration	-	Generated.EnableCollidersAfterDurationSerializerGenerated
+	AddStatsAfterDuration	-	Generated.AddStatsAfterDurationSerializerGenerated
+	SetDurationBasedOnDistanceToTarget	-	Generated.SetDurationBasedOnDistanceToTargetSerializerGenerated
+	DestroySelfOnParentAbilityUse	-	Generated.DestroySelfOnParentAbilityUseSerializerGenerated
+	BuffOnEnemyHit	-	Generated.BuffOnEnemyHitSerializerGenerated
+	CreateResourceReturnAbilityObjectOnEnemyHit	-	Generated.CreateResourceReturnAbilityObjectOnEnemyHitSerializerGenerated
+	MultistrikeDamageMutator	-	Generated.MultistrikeDamageMutatorSerializerGenerated
+	NecroticMortarAoEMutator	-	Generated.NecroticMortarAoEMutatorSerializerGenerated
+	CastAtCorpseOnKill	-	Generated.CastAtCorpseOnKillSerializerGenerated
+	FireballMutator	-	Generated.FireballMutatorSerializerGenerated
+	LightningBlastMutator	-	Generated.LightningBlastMutatorSerializerGenerated
+	WanderAI	-	Generated.WanderAISerializerGenerated
+	DestroySelfOnParentMovement	-	Generated.DestroySelfOnParentMovementSerializerGenerated
+	RotateAroundSummoner	-	Generated.RotateAroundSummonerSerializerGenerated
+	PushEnemiesOnHit	-	Generated.PushEnemiesOnHitSerializerGenerated
+	ResurrectNearbyAlliesOnDeath	-	Generated.ResurrectNearbyAlliesOnDeathSerializerGenerated
+	CollisionAndNavMeshToggler	-	Generated.CollisionAndNavMeshTogglerSerializerGenerated
+	CreateAbilityObjectOnStart	-	Generated.CreateAbilityObjectOnStartSerializerGenerated
+	Essence	-	Generated.EssenceSerializerGenerated
+	DestroyAfterDurationWithoutAHit	-	Generated.DestroyAfterDurationWithoutAHitSerializerGenerated
+	ShrapnelMutator	-	Generated.ShrapnelMutatorSerializerGenerated
+	EraseParentCorpse	-	Generated.EraseParentCorpseSerializerGenerated
+	InfernalAuraNovaMutator	-	Generated.InfernalAuraNovaMutatorSerializerGenerated
+	FormChanger	-	Generated.FormChangerSerializerGenerated
+	TransformBackToHumanOnDeath	-	Generated.TransformBackToHumanOnDeathSerializerGenerated
+	ForceCasterToStopUsingAbilityOnDeath	-	Generated.ForceCasterToStopUsingAbilityOnDeathSerializerGenerated
+	RebukeEndMutator	-	Generated.RebukeEndMutatorSerializerGenerated
+	CoagulatedBloodMutator	-	Generated.CoagulatedBloodMutatorSerializerGenerated
+	GenericAssembledAbominationSkillMutator	-	Generated.GenericAssembledAbominationSkillMutatorSerializerGenerated
+	AcidFlaskExplosionMutator	-	Generated.AcidFlaskExplosionMutatorSerializerGenerated
+	FlurryIndividualAttackMutator	-	Generated.FlurryIndividualAttackMutatorSerializerGenerated
+	IncreaseDamageOnHit	-	Generated.IncreaseDamageOnHitSerializerGenerated
+	ModifyAnimationAfterDuration	-	Generated.ModifyAnimationAfterDurationSerializerGenerated
+	CinderStrikeExplosionMutator	-	Generated.CinderStrikeExplosionMutatorSerializerGenerated
+	DancingStrikesSubMutator	-	Generated.DancingStrikesSubMutatorSerializerGenerated
+	DancingStrikes4EndMutator	-	Generated.DancingStrikes4EndMutatorSerializerGenerated
+	DancingStrikes4End1Mutator	-	Generated.DancingStrikes4End1MutatorSerializerGenerated
+	DancingStrikes4End2Mutator	-	Generated.DancingStrikes4End2MutatorSerializerGenerated
+	DarkQuiverArrowMutator	-	Generated.DarkQuiverArrowMutatorSerializerGenerated
+	DetonatingChargeMutator	-	Generated.DetonatingChargeMutatorSerializerGenerated
+	DetonationChainLightningMutator	-	Generated.DetonationChainLightningMutatorSerializerGenerated
+	DetonatingArrowExplosionMutator	-	Generated.DetonatingArrowExplosionMutatorSerializerGenerated
+	ExplosiveFlaskMutator	-	Generated.ExplosiveFlaskMutatorSerializerGenerated
+	DestroyWhenCasterUsesAbility	-	Generated.DestroyWhenCasterUsesAbilitySerializerGenerated
+	SwarmbladeShiftSlashMutator	-	Generated.SwarmbladeShiftSlashMutatorSerializerGenerated
+	LocustSwarmMutator	-	Generated.LocustSwarmMutatorSerializerGenerated
+	SynchronizedStrikesShadowDelayerMutator	-	Generated.SynchronizedStrikesShadowDelayerMutatorSerializerGenerated
+	SynchronizedStrikesEndMutator	-	Generated.SynchronizedStrikesEndMutatorSerializerGenerated
+	RicochetMovement	-	Generated.RicochetMovementSerializerGenerated
+	CreateAbilityObjectOnRicochet	-	Generated.CreateAbilityObjectOnRicochetSerializerGenerated
+	DisableActorsOfTypeInteraction	-	Generated.DisableActorsOfTypeInteractionSerializerGenerated
+	RandomiseRotationOnStart	-	Generated.RandomiseRotationOnStartSerializerGenerated
+	MoveToNearestMinion	-	Generated.MoveToNearestMinionSerializerGenerated
+	DelayedLightningExplosionMutator	-	Generated.DelayedLightningExplosionMutatorSerializerGenerated
+	UltimateDecalAbilityComponent	-	Generated.UltimateDecalAbilityComponentSerializerGenerated
+	ExchangeParentAndCreatorLocationOnDeath	-	Generated.ExchangeParentAndCreatorLocationOnDeathSerializerGenerated
+	ShatterStrikeHitMutator	-	Generated.ShatterStrikeHitMutatorSerializerGenerated
+	IcicleMutator	-	Generated.IcicleMutatorSerializerGenerated
+	ChangeColliderSizeOverTime	-	Generated.ChangeColliderSizeOverTimeSerializerGenerated
+	CullFrozenTargetsOnHit	-	Generated.CullFrozenTargetsOnHitSerializerGenerated
+	ResetComboOnDeath	-	Generated.ResetComboOnDeathSerializerGenerated
+	SigilTracker	-	Generated.SigilTrackerSerializerGenerated
+	DivineFlareMutator	-	Generated.DivineFlareMutatorSerializerGenerated
+	SmeltersWrathEndMutator	-	Generated.SmeltersWrathEndMutatorSerializerGenerated
+	HitsParent	-	Generated.HitsParentSerializerGenerated
+	DestroyOnSceneChanged	-	Generated.DestroyOnSceneChangedSerializerGenerated
+	SpreadAilmentsOnHit	-	Generated.SpreadAilmentsOnHitSerializerGenerated
+	ConsumeAllValeSpiritsOnDeath	-	Generated.ConsumeAllValeSpiritsOnDeathSerializerGenerated
+	PullEnemiesAfterCollision	-	Generated.PullEnemiesAfterCollisionSerializerGenerated
+	StaticOrbExplosionMutator	-	Generated.StaticOrbExplosionMutatorSerializerGenerated
+	rotate	-	Generated.rotateSerializerGenerated
+	CreateRandomAbilityObjectOnDeath	-	Generated.CreateRandomAbilityObjectOnDeathSerializerGenerated
+	AbilityList	-	Generated.AbilityListSerializerGenerated
+	VolatileZombieAdapter	-	Generated.VolatileZombieAdapterSerializerGenerated
+	EarthSpikesMutator	-	Generated.EarthSpikesMutatorSerializerGenerated
+	LightningBoltMutator	-	Generated.LightningBoltMutatorSerializerGenerated
+	NorthernWindsMutator	-	Generated.NorthernWindsMutatorSerializerGenerated
+	FearNearbyEnemies	-	Generated.FearNearbyEnemiesSerializerGenerated
+	ThornShieldNovaMutator	-	Generated.ThornShieldNovaMutatorSerializerGenerated
+	TownPortalKeyProvider	-	Generated.TownPortalKeyProviderSerializerGenerated
+	PortalUsage	-	Generated.PortalUsageSerializerGenerated
+	DetonateBodyMutator	-	Generated.DetonateBodyMutatorSerializerGenerated
+	ChanceToCastOnHit	-	Generated.ChanceToCastOnHitSerializerGenerated
+	StartsAtSceneLocation	-	Generated.StartsAtSceneLocationSerializerGenerated
+	ReturnCasterToOlderPosition	-	Generated.ReturnCasterToOlderPositionSerializerGenerated
+	WarpathHitMutator	-	Generated.WarpathHitMutatorSerializerGenerated
+	WerebearMaulEndMutator	-	Generated.WerebearMaulEndMutatorSerializerGenerated
+	TransformSkillBuffParent	-	Generated.TransformSkillBuffParentSerializerGenerated
+	ApplyStatusOnEnemyHit	-	Generated.ApplyStatusOnEnemyHitSerializerGenerated
+	BuffCreatorOnHit	-	Generated.BuffCreatorOnHitSerializerGenerated
+	AbilityMutatorManager	-	Generated.AbilityMutatorManagerSerializerGenerated
 
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
@@ -132,9 +401,65 @@ LE.Caching.Serialization:GetSerializers()
 
 <RI> Initializing input.
 <RI> Input initialized.
+d3d11: swapchain SetFullscreenState failed (887a0022). 
+(Filename:  Line: 517)
+
 <RI> Initialized touch support.
-The referenced script (RuntimeDevMode) on this Behaviour is missing! 
-(Filename:  Line: 199)
+UnloadTime: 2.645900 ms
+Locale changed to Russian (ru)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SendBird.DisconnectHandler:Invoke()
+Localization:OnTableChanged(StringTable)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+UnityEngine.Localization.LocalizedTable`2:InvokeChangeHandler(TTable)
+UnityEngine.Localization.LocalizedTable`2:AutomaticLoadingCompleted(AsyncOperationHandle`1)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, String)
+UnityEngine.Localization.LoadTableOperation`2:TableLoaded(AsyncOperationHandle`1)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Locale changed to Russian (ru)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SendBird.DisconnectHandler:Invoke()
+Localization:OnTableChanged(StringTable)
+<InitializeTableCaching>d__61:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.AsyncOperationHandleConfiguredSource`1:Continuation(AsyncOperationHandle`1)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, String)
+UnityEngine.Localization.LoadTableOperation`2:TableLoaded(AsyncOperationHandle`1)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Failed to change display to ExclusiveFullscreen...reverting to FullscreenWindow 
+(Filename:  Line: 538)
 
 The referenced script (LE.Dev.DevImGUIRenderer) on this Behaviour is missing! 
 (Filename:  Line: 199)
@@ -142,23 +467,44 @@ The referenced script (LE.Dev.DevImGUIRenderer) on this Behaviour is missing!
 The referenced script on this Behaviour (Game Object 'DevModeWindow') is missing! 
 (Filename:  Line: 334)
 
-A scripted object (probably RuntimeDevMode?) has a different serialization layout when loading. (Read 32 bytes but expected 84 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2373)
-
 The referenced script on this Behaviour (Game Object 'DevModeWindow') is missing! 
 (Filename:  Line: 334)
 
 The referenced script on this Behaviour (Game Object '!ftraceLightmaps') is missing! 
 (Filename:  Line: 334)
 
-UnloadTime: 12.111900 ms
-game version: 0.9e
+Unloading 7 Unused Serialized files (Serialized files now loaded: 12)
+game version: 1.0
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 GameVersionManager:Awake()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Uploading Crash Report
+NullReferenceException: Object reference not set to an instance of an object.
+  at EpochInputManager.SetActiveVirtualMouse (System.Boolean active) [0x00000] in <00000000000000000000000000000000>:0 
+  at ControllerMenu.OnEnable () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIPanel.GetInstance (System.Boolean autoDisable) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIBase.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+UIPanel:GetInstance(Boolean)
+UIBase:Awake()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Uploading Crash Report
+NullReferenceException: Object reference not set to an instance of an object.
+  at ControllerMenu.OnDisable () [0x00000] in <00000000000000000000000000000000>:0 
+  at UIPanel.GetInstance (System.Boolean autoDisable) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIBase.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+UIPanel:GetInstance(Boolean)
+UIBase:Awake()
+ 
+(Filename: currently not available on il2cpp Line: -1)
 
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 GraphicsBackend.Options.GraphicsConfiguration:Awake()
@@ -169,6 +515,70 @@ UIBase:Awake()
 
 [ line 606] 
 (Filename:  Line: 606)
+
+Uploading Crash Report
+NullReferenceException: Object reference not set to an instance of an object.
+  at DropdownGroundItemTooltipSetting.SelectDropdownOption () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x00000] in <00000000000000000000000000000000>:0 
+  at DropdownGroundItemTooltipSetting.CheckSetting () [0x00000] in <00000000000000000000000000000000>:0 
+  at SettingsUIManager.EnableGameplayTab () [0x00000] in <00000000000000000000000000000000>:0 
+  at TabUIController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIPanel.GetInstance (System.Boolean autoDisable) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIBase.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+SettingsUIManager:EnableGameplayTab()
+TabUIController:Awake()
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+UIPanel:GetInstance(Boolean)
+UIBase:Awake()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Uploading Crash Report
+NullReferenceException: Object reference not set to an instance of an object.
+  at ActiveBasedOnFloatingPlayerNameSetting.CheckSetting () [0x00000] in <00000000000000000000000000000000>:0 
+  at SettingsUIManager.EnableGameplayTab () [0x00000] in <00000000000000000000000000000000>:0 
+  at TabUIController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIPanel.GetInstance (System.Boolean autoDisable) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIBase.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+SettingsUIManager:EnableGameplayTab()
+TabUIController:Awake()
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+UIPanel:GetInstance(Boolean)
+UIBase:Awake()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Uploading Crash Report
+NullReferenceException: Object reference not set to an instance of an object.
+  at DropdownScreenshakeIntensitySetting.SelectDropdownOption () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00000] in <00000000000000000000000000000000>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x00000] in <00000000000000000000000000000000>:0 
+  at DropdownScreenshakeIntensitySetting.CheckSetting () [0x00000] in <00000000000000000000000000000000>:0 
+  at SettingsUIManager.EnableGameplayTab () [0x00000] in <00000000000000000000000000000000>:0 
+  at TabUIController.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Object.Instantiate[T] (T original, UnityEngine.Transform parent, System.Boolean worldPositionStays) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIPanel.GetInstance (System.Boolean autoDisable) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIBase.Awake () [0x00000] in <00000000000000000000000000000000>:0 
+SettingsUIManager:EnableGameplayTab()
+TabUIController:Awake()
+UnityEngine.Object:Instantiate(Object, Transform, Boolean)
+UnityEngine.Object:Instantiate(T, Transform, Boolean)
+UIPanel:GetInstance(Boolean)
+UIBase:Awake()
+ 
+(Filename: currently not available on il2cpp Line: -1)
 
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 Rewired.UI.ControlMapper.ControlMapper:Awake()
@@ -183,31 +593,113 @@ ImGuiNET.Unity.DearImGui:OnEnable()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Command line options:
-	IsDiagnosticLoggingEnabled = False
-	ConnectDirectlyToGameServer = False
-	GameServerIP = 
-	GameServerPort = 
-	PlayFabTitleId = 
-	Profile = 
-
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-LE.Core.CommandLine:GetCommandLineOptions(IEnumerable`1)
-System.Func`1:Invoke()
-System.Lazy`1:CreateValue()
-System.Lazy`1:LazyInitValue()
-System.Lazy`1:get_Value()
-LE.Services.ServiceProviderInitializer:UpdateClientSettingsFromCommandLineOptions()
-LE.Services.ServiceProviderInitializer:Awake()
+UnloadTime: 6.699400 ms
+UpdateSystem should not be added to scenes. Please delete UpdateManager.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+LE.CustomUpdate.UpdateSystem:Awake()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Unloading 7 Unused Serialized files (Serialized files now loaded: 3)
-UnloadTime: 5.255300 ms
 
-Unloading 572 unused Assets to reduce memory usage. Loaded Objects now: 563735.
-Total: 938.023400 ms (FindLiveObjects: 27.534200 ms CreateObjectMapping: 65.065600 ms MarkObjects: 842.034700 ms  DeleteObjects: 3.386300 ms)
+Unloading 22116 unused Assets to reduce memory usage. Loaded Objects now: 789710.
+Total: 1294.827800 ms (FindLiveObjects: 41.800000 ms CreateObjectMapping: 130.463100 ms MarkObjects: 1115.369100 ms  DeleteObjects: 7.195300 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 13)
+UnloadTime: 7.102900 ms
+UpdateSystem should not be added to scenes. Please delete UpdateManager.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+LE.CustomUpdate.UpdateSystem:Awake()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 789715.
+Total: 1243.150900 ms (FindLiveObjects: 31.260600 ms CreateObjectMapping: 85.173700 ms MarkObjects: 1125.527300 ms  DeleteObjects: 1.189000 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+UILocalization: Component on Text (TMP) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Text (TMP) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Affix Header was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Placeholder was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Applied Affix Header was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Available Affix Header was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Incompatible Affix Header was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 No working integration, destroying EpochRGB
 UnityEngine.Logger:Log(LogType, Object)
@@ -217,22 +709,17 @@ LE.Integrations.RGB.EpochRGB:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-LoginController EnterState None -> CheckForSteam
-UnityEngine.Logger:LogFormat(LogType, String, Object[])
-UnityEngine.Debug:LogFormat(String, Object[])
-LE.UI.Login.LoginController:OnEnterState(LoginUIState, LoginUIState)
-System.Action`2:Invoke(T1, T2)
-LE.UI.FSMController`1:InvokeStateChangeEvents(T)
+UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-LoginController ShowPanel AttemptingSteamLogin
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogFormat(Object, String, Object[])
-LE.UI.Login.UnityUI.LoginPanelBase:OnEnable()
-LE.UI.Login.LoginController:OnEnterState(LoginUIState, LoginUIState)
-System.Action`2:Invoke(T1, T2)
-LE.UI.FSMController`1:InvokeStateChangeEvents(T)
+UILocalization: Component on TextMeshPro Text (1) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -240,39 +727,6 @@ LE.UI.FSMController`1:InvokeStateChangeEvents(T)
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
 FMODUnity.RuntimeManager:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-LoginController EnterState CheckForSteam -> LoginPlayer
-UnityEngine.Logger:LogFormat(LogType, String, Object[])
-UnityEngine.Debug:LogFormat(String, Object[])
-LE.UI.Login.LoginController:OnEnterState(LoginUIState, LoginUIState)
-System.Action`2:Invoke(T1, T2)
-LE.UI.FSMController`1:InvokeStateChangeEvents(T)
-LE.UI.Login.UnityUI.<VerifySteam>d__1:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.NextFramePromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-LoginController ShowPanel LoginPlayer
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogFormat(Object, String, Object[])
-LE.UI.Login.UnityUI.LoginPanelBase:OnEnable()
-LE.UI.Login.LoginController:OnEnterState(LoginUIState, LoginUIState)
-System.Action`2:Invoke(T1, T2)
-LE.UI.FSMController`1:InvokeStateChangeEvents(T)
-LE.UI.Login.UnityUI.<VerifySteam>d__1:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.NextFramePromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -286,490 +740,454 @@ Crosstales.BWF.BWFManager:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-LoginController EnterState LoginPlayer -> LandingZone
-UnityEngine.Logger:LogFormat(LogType, String, Object[])
-UnityEngine.Debug:LogFormat(String, Object[])
-LE.UI.Login.LoginController:OnEnterState(LoginUIState, LoginUIState)
-System.Action`2:Invoke(T1, T2)
-LE.UI.FSMController`1:InvokeStateChangeEvents(T)
-LE.UI.Login.UnityUI.<LoginPlayer>d__3:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
-zEspJVZrnAxehExTCBdxzFBmHFed:aNuEzxHUlqYPcbbFTuLKhRhhUsf()
-LE.Services.<AutoLoginAsync>d__26:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
-zEspJVZrnAxehExTCBdxzFBmHFed:aNuEzxHUlqYPcbbFTuLKhRhhUsf()
-LE.Services.<LoginWithSteamAsync>d__27:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
-LE.Wrapper.PlayFab.<>c__DisplayClass0_0:<LoginWithSteam>b__1(LoginResult)
-System.Action`1:Invoke(T)
-PlayFab.Internal.<>c__DisplayClass23_0`1:<_MakeApiCall>b__1()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-PlayFab.Internal.PlayFabUnityHttp:OnResponse(String, CallRequestContainer)
-PlayFab.Internal.<Post>d__12:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+UILocalization: Component on ScalingTagsHeader was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-LoginController ShowPanel LandingZone
-UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Debug:LogFormat(Object, String, Object[])
-LE.UI.Login.UnityUI.LoginPanelBase:OnEnable()
-LE.UI.Login.LoginController:OnEnterState(LoginUIState, LoginUIState)
-System.Action`2:Invoke(T1, T2)
-LE.UI.FSMController`1:InvokeStateChangeEvents(T)
-LE.UI.Login.UnityUI.<LoginPlayer>d__3:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
-zEspJVZrnAxehExTCBdxzFBmHFed:aNuEzxHUlqYPcbbFTuLKhRhhUsf()
-LE.Services.<AutoLoginAsync>d__26:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
-zEspJVZrnAxehExTCBdxzFBmHFed:aNuEzxHUlqYPcbbFTuLKhRhhUsf()
-LE.Services.<LoginWithSteamAsync>d__27:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
-LE.Wrapper.PlayFab.<>c__DisplayClass0_0:<LoginWithSteam>b__1(LoginResult)
-System.Action`1:Invoke(T)
-PlayFab.Internal.<>c__DisplayClass23_0`1:<_MakeApiCall>b__1()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-PlayFab.Internal.PlayFabUnityHttp:OnResponse(String, CallRequestContainer)
-PlayFab.Internal.<Post>d__12:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+'filter' is null!
+Did you add the 'CapitalizationManager' to the current scene?
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Crosstales.BWF.Manager.CapitalizationManager:logFilterIsNull()
+Crosstales.BWF.Manager.CapitalizationManager:Contains(String)
+Crosstales.BWF.BWFManager:Contains(String, ManagerMask, String[])
+CharacterSelect:CharacterNameSubmit()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-2023-03-21T16:12:19.4874818+00:00	System.NullReferenceException: Object reference not set to an instance of an object.
-  at LE.Chat.PubNubModerationService+<Authorize>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext+Callback.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext.Run () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.LowLevel.PlayerLoopSystem+UpdateFunction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+'filter' is null!
+Did you add the 'PunctuationManager' to the current scene?
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Crosstales.BWF.Manager.PunctuationManager:logFilterIsNull()
+Crosstales.BWF.Manager.PunctuationManager:Contains(String)
+CharacterSelect:CharacterNameSubmit()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on ScalingTagsHeader was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on SkipText was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Requesting game server in region fb736dfd-4745-11ea-ac3a-0f02d400b7e7
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+EHG.Multiplayer.<Matchmake_Internal>d__7:MoveNext()
+EHG.Multiplayer.Matchmaker:PreMatchmake(UserIdentity, String)
+<>c:<CreateCharacterAsync>g__OnVideoFinished|38_0()
+SendBird.DisconnectHandler:Invoke()
+<PlayCinematic>d__32:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+ApplyModifiersBeforeExternalStatsCalculationAction:Invoke()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Uploading Crash Report
+PlayFabException: Must be logged in to call this method
+  at PlayFab.PlayFabCloudScriptAPI.ExecuteFunction (PlayFab.CloudScriptModels.ExecuteFunctionRequest request, System.Action`1[T] resultCallback, System.Action`1[T] errorCallback, System.Object customData, System.Collections.Generic.Dictionary`2[TKey,TValue] extraHeaders) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Wrapper.PlayFab.PlayFabClientWrapper.ExecuteCloudScriptAsync (System.String functionName, System.Object functionParameters, PlayFab.CloudScriptModels.EntityKey entity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers+<>c__DisplayClass1_0`1+<<Execute>b__0>d[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].Start[TStateMachine] (TStateMachine& stateMachine) [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers+<>c__DisplayClass1_0`1[T].<Execute>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`3[T1,T2,TResult].Invoke (T1 arg1, T2 arg2) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.Retry.AsyncRetryEngine+<ImplementationAsync>d__0`1[TResult].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].Start[TStateMachine] (TStateMachine& stateMachine) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult] (System.Func`3[T1,T2,TResult] action, Polly.Context context, System.Threading.CancellationToken cancellationToken, Polly.ExceptionPredicates shouldRetryExceptionPredicates, Polly.ResultPredicates`1[TResult] shouldRetryResultPredicates, System.Func`5[T1,T2,T3,T4,TResult] onRetryAsync, System.Int32 permittedRetryCount, System.Collections.Generic.IEnumerable`1[T] sleepDurationsEnumerable, System.Func`4[T1,T2,T3,TResult] sleepDurationProvider, System.Boolean continueOnCapturedContext) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.Retry.AsyncRetryPolicy`1[TResult].ImplementationAsync (System.Func`3[T1,T2,TResult] action, Polly.Context context, System.Threading.CancellationToken cancellationToken, System.Boolean continueOnCapturedContext) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1+<ExecuteAsync>d__13[TResult].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].Start[TStateMachine] (TStateMachine& stateMachine) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1[TResult].ExecuteAsync (System.Func`3[T1,T2,TResult] action, Polly.Context context, System.Threading.CancellationToken cancellationToken, System.Boolean continueOnCapturedContext) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1[TResult].ExecuteAsync (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers+<Execute>d__1`1[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers.Execute[T] (System.String functionName, LE.Services.CloudScriptAzureFunctionArgumentsBase arguments, LE.Services.Models.UserIdentity userIdentity, PlayFab.CloudScriptModels.EntityKey entityKey, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<RequestGameServer>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<Matchmake_Internal>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker.PreMatchmake (LE.Services.Models.UserIdentity identity, System.String regionToUse) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
 --- End of stack trace from previous location where exception was thrown ---
   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2[TStateMachine,T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
-  at ShardCountText+<UpdateTextOverDuration>d__12.System.Collections.IEnumerator.Reset () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Initialize>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.Retry.AsyncRetryEngine+<ImplementationAsync>d__0`1[TResult].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].Start[TStateMachine] (TStateMachine& stateMachine) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult] (System.Func`3[T1,T2,TResult] action, Polly.Context context, System.Threading.CancellationToken cancellationToken, Polly.ExceptionPredicates shouldRetryExceptionPredicates, Polly.ResultPredicates`1[TResult] shouldRetryResultPredicates, System.Func`5[T1,T2,T3,T4,TResult] onRetryAsync, System.Int32 permittedRetryCount, System.Collections.Generic.IEnumerable`1[T] sleepDurationsEnumerable, System.Func`4[T1,T2,T3,TResult] sleepDurationProvider, System.Boolean continueOnCapturedContext) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.Retry.AsyncRetryPolicy`1[TResult].ImplementationAsync (System.Func`3[T1,T2,TResult] action, Polly.Context context, System.Threading.CancellationToken cancellationToken, System.Boolean continueOnCapturedContext) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1+<ExecuteAsync>d__13[TResult].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].Start[TStateMachine] (TStateMachine& stateMachine) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1[TResult].ExecuteAsync (System.Func`3[T1,T2,TResult] action, Polly.Context context, System.Threading.CancellationToken cancellationToken, System.Boolean continueOnCapturedContext) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1[TResult].ExecuteAsync (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers+<Execute>d__1`1[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers.Execute[T] (System.String functionName, LE.Services.CloudScriptAzureFunctionArgumentsBase arguments, LE.Services.Models.UserIdentity userIdentity, PlayFab.CloudScriptModels.EntityKey entityKey, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<RequestGameServer>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<Matchmake_Internal>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker.PreMatchmake (LE.Services.Models.UserIdentity identity, System.String regionToUse) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Authorize>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext+Callback.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext.Run () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.LowLevel.PlayerLoopSystem+UpdateFunction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
 --- End of stack trace from previous location where exception was thrown ---
   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2[TStateMachine,T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeChatSystem>d__112.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1+<ExecuteAsync>d__13[TResult].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].Start[TStateMachine] (TStateMachine& stateMachine) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1[TResult].ExecuteAsync (System.Func`3[T1,T2,TResult] action, Polly.Context context, System.Threading.CancellationToken cancellationToken, System.Boolean continueOnCapturedContext) [0x00000] in <00000000000000000000000000000000>:0 
+  at Polly.AsyncPolicy`1[TResult].ExecuteAsync (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers+<Execute>d__1`1[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers.Execute[T] (System.String functionName, LE.Services.CloudScriptAzureFunctionArgumentsBase arguments, LE.Services.Models.UserIdentity userIdentity, PlayFab.CloudScriptModels.EntityKey entityKey, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<RequestGameServer>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<Matchmake_Internal>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker.PreMatchmake (LE.Services.Models.UserIdentity identity, System.String regionToUse) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Initialize>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Authorize>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext+Callback.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext.Run () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.LowLevel.PlayerLoopSystem+UpdateFunction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
 --- End of stack trace from previous location where exception was thrown ---
   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1[TStateMachine].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents.remove_OnWriteTitleEventResultEvent (PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult] value) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeServices>d__103.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers+<Execute>d__1`1[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at CloudScriptAzureFunctionHelpers.Execute[T] (System.String functionName, LE.Services.CloudScriptAzureFunctionArgumentsBase arguments, LE.Services.Models.UserIdentity userIdentity, PlayFab.CloudScriptModels.EntityKey entityKey, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<RequestGameServer>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<Matchmake_Internal>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker.PreMatchmake (LE.Services.Models.UserIdentity identity, System.String regionToUse) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeChatSystem>d__112.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Initialize>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Authorize>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext+Callback.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext.Run () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.LowLevel.PlayerLoopSystem+UpdateFunction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
 --- End of stack trace from previous location where exception was thrown ---
   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1[TStateMachine].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskExtensions+<>c.<Forget>b__48_0 (System.Object state) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+ExceptionResultSource`1[T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1[T].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<RequestGameServer>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<Matchmake_Internal>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker.PreMatchmake (LE.Services.Models.UserIdentity identity, System.String regionToUse) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeServices>d__103.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+ExceptionResultSource`1[T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker+<Matchmake_Internal>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker.PreMatchmake (LE.Services.Models.UserIdentity identity, System.String regionToUse) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.ServiceProvider+<InitializeChatSystem>d__112.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+ExceptionResultSource`1[T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.AsyncLazy`1[T].SetCompletionSource (Cysharp.Threading.Tasks.UniTask`1+Awaiter[T]& awaiter) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.AsyncLazy`1[T]..ctor (Cysharp.Threading.Tasks.UniTask`1[T] task) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskExtensions.ToAsyncLazy[T] (Cysharp.Threading.Tasks.UniTask`1[T] task) [0x00000] in <00000000000000000000000000000000>:0 
+  at EHG.Multiplayer.Matchmaker.PreMatchmake (LE.Services.Models.UserIdentity identity, System.String regionToUse) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Initialize>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskCompletionSource`1[T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTaskExtensions.Forget[T] (Cysharp.Threading.Tasks.UniTask`1[T] task) [0x00000] in <00000000000000000000000000000000>:0 
+  at LocalCharacterSlots+<>c.<CreateCharacterAsync>g__OnVideoFinished|38_0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterSelectionVideoManager+<PlayCinematic>d__32.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
   at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Chat.PubNubModerationService+<Authorize>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext+Callback.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskSynchronizationContext.Run () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.LowLevel.PlayerLoopSystem+UpdateFunction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-LE.Telemetry.PrependTimestampLogHandler:LogFormat(LogType, Object, String, Object[])
-LE.Telemetry.PrependTimestampLogHandler:LogException(Exception, Object)
+  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetResult (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.UniTask+WaitUntilPromise.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Cysharp.Threading.Tasks.Internal.PlayerLoopRunner.RunCore () [0x00000] in <00000000000000000000000000000000>:0 
+  at CharacterStats+ApplyModifiersBeforeExternalStatsCalculationAction.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
 UnityEngine.Logger:LogException(Exception, Object)
 UnityEngine.Debug:LogException(Exception)
 Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-Cysharp.Threading.Tasks.<>c:<Forget>b__48_0(Object)
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetException(Exception)
-LE.Services.<InitializeServices>d__103:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetException(Exception)
-LE.Services.<InitializeChatSystem>d__112:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetException(Exception)
-LE.Chat.<Initialize>d__11:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetException(Exception)
-LE.Chat.<Authorize>d__12:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-Cysharp.Threading.Tasks.Callback:Invoke()
-Cysharp.Threading.Tasks.UniTaskSynchronizationContext:Run()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Ping: Error performing ICMP transmission. Possibly because of a timeout
-The referenced script on this Behaviour (Game Object '<null>') is missing! 
-(Filename:  Line: 334)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing! 
-(Filename:  Line: 334)
-
-2023-03-21T16:12:23.7663935+00:00	System.NullReferenceException: Object reference not set to an instance of an object.
-  at LE.Services.PlayFabPartyClientService+<GetPendingInvites>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSource`1[T].TrySignalCompletion (Cysharp.Threading.Tasks.UniTaskStatus status) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Wrapper.PlayFab.PlayFabGroupWrapper+<>c__DisplayClass13_0.<ListMembershipOpportunities>b__1 (PlayFab.GroupsModels.ListMembershipOpportunitiesResponse result) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabHttp+<>c__DisplayClass23_0`1[TResult].<_MakeApiCall>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp.OnResponse (System.String response, PlayFab.Internal.CallRequestContainer reqContainer) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp+<Post>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <00000000000000000000000000000000>:0 
---- End of stack trace from previous location where exception was thrown ---
-  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2[TStateMachine,T].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask`1+Awaiter[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.PlayFabPartyManager+<FetchInvites>d__35.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.PlayFabPartyClientService+<GetPendingInvites>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSource`1[T].TrySignalCompletion (Cysharp.Threading.Tasks.UniTaskStatus status) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Wrapper.PlayFab.PlayFabGroupWrapper+<>c__DisplayClass13_0.<ListMembershipOpportunities>b__1 (PlayFab.GroupsModels.ListMembershipOpportunitiesResponse result) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabHttp+<>c__DisplayClass23_0`1[TResult].<_MakeApiCall>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp.OnResponse (System.String response, PlayFab.Internal.CallRequestContainer reqContainer) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp+<Post>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <00000000000000000000000000000000>:0 
---- End of stack trace from previous location where exception was thrown ---
-  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1[TStateMachine].GetResult (System.Int16 token) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask+WhenAllPromise.TryInvokeContinuation (Cysharp.Threading.Tasks.UniTask+WhenAllPromise self, Cysharp.Threading.Tasks.UniTask+Awaiter& awaiter) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask+WhenAllPromise+<>c.<.ctor>b__3_0 (System.Object state) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.PlayFabPartyManager+<FetchInvites>d__35.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.PlayFabPartyClientService+<GetPendingInvites>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSource`1[T].TrySignalCompletion (Cysharp.Threading.Tasks.UniTaskStatus status) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Wrapper.PlayFab.PlayFabGroupWrapper+<>c__DisplayClass13_0.<ListMembershipOpportunities>b__1 (PlayFab.GroupsModels.ListMembershipOpportunitiesResponse result) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabHttp+<>c__DisplayClass23_0`1[TResult].<_MakeApiCall>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp.OnResponse (System.String response, PlayFab.Internal.CallRequestContainer reqContainer) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp+<Post>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <00000000000000000000000000000000>:0 
---- End of stack trace from previous location where exception was thrown ---
-  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.PlayFabPartyManager+<FetchInvitesLoop>d__33.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask+WhenAllPromise.TryInvokeContinuation (Cysharp.Threading.Tasks.UniTask+WhenAllPromise self, Cysharp.Threading.Tasks.UniTask+Awaiter& awaiter) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTask+WhenAllPromise+<>c.<.ctor>b__3_0 (System.Object state) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.PlayFabPartyManager+<FetchInvites>d__35.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1[TResult].TrySetException (System.Exception error) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.PlayFabPartyClientService+<GetPendingInvites>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at Cysharp.Threading.Tasks.UniTaskCompletionSource`1[T].TrySignalCompletion (Cysharp.Threading.Tasks.UniTaskStatus status) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Wrapper.PlayFab.PlayFabGroupWrapper+<>c__DisplayClass13_0.<ListMembershipOpportunities>b__1 (PlayFab.GroupsModels.ListMembershipOpportunitiesResponse result) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`1[T].Invoke (T obj) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabHttp+<>c__DisplayClass23_0`1[TResult].<_MakeApiCall>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Internal.StandaloneAxis+ButtonDownEventHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp.OnResponse (System.String response, PlayFab.Internal.CallRequestContainer reqContainer) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Internal.PlayFabUnityHttp+<Post>d__12.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <00000000000000000000000000000000>:0 
-LE.Telemetry.PrependTimestampLogHandler:LogFormat(LogType, Object, String, Object[])
-LE.Telemetry.PrependTimestampLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Services.<FetchInvitesLoop>d__33:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetException(Exception)
-Cysharp.Threading.Tasks.WhenAllPromise:TryInvokeContinuation(WhenAllPromise, Awaiter&)
-Cysharp.Threading.Tasks.<>c:<.ctor>b__3_0(Object)
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetException(Exception)
-LE.Services.<FetchInvites>d__35:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetException(Exception)
-LE.Services.<GetPendingInvites>d__3:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSource`1:TrySignalCompletion(UniTaskStatus)
-LE.Wrapper.PlayFab.<>c__DisplayClass13_0:<ListMembershipOpportunities>b__1(ListMembershipOpportunitiesResponse)
-System.Action`1:Invoke(T)
-PlayFab.Internal.<>c__DisplayClass23_0`1:<_MakeApiCall>b__1()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-PlayFab.Internal.PlayFabUnityHttp:OnResponse(String, CallRequestContainer)
-PlayFab.Internal.<Post>d__12:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-2023-03-21T16:12:45.1742930+00:00	LoginController EnterState LandingZone -> CharacterSelect
-LE.Telemetry.PrependTimestampLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:LogFormat(LogType, String, Object[])
-UnityEngine.Debug:LogFormat(String, Object[])
-LE.UI.Login.LoginController:OnEnterState(LoginUIState, LoginUIState)
-System.Action`2:Invoke(T1, T2)
-LE.UI.FSMController`1:InvokeStateChangeEvents(T)
-LE.UI.Login.UnityUI.<AdvancePlayerToCharacterSelect>d__16:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
+Cysharp.Threading.Tasks.UniTaskExtensions:Forget(UniTask`1)
+<>c:<CreateCharacterAsync>g__OnVideoFinished|38_0()
+SendBird.DisconnectHandler:Invoke()
+<PlayCinematic>d__32:MoveNext()
+SendBird.DisconnectHandler:Invoke()
 System.Action`1:Invoke(T)
 Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:SetResult(T)
-LE.UI.Login.<LoadPlayerCharactersAndGetNextState>d__20:MoveNext()
-Rewired.Internal.ButtonDownEventHandler:Invoke()
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-Cysharp.Threading.Tasks.Callback:Invoke()
-Cysharp.Threading.Tasks.UniTaskSynchronizationContext:Run()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
+Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+ApplyModifiersBeforeExternalStatsCalculationAction:Invoke()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Failed to create agent because it is not close enough to the NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
+LE.AssetManagement.SceneReferenceManager:Instantiate(AssetReferenceGameObject, Vector3, Quaternion)
+ActorData:spawn(Vector3, Single, NetworkingPlayer, GameObject, PositionSyncType)
+PlayerUtility:InstantiatePlayerActor(ActorData, NetworkingPlayer)
+LE.Services.<StartPlay>d__13:MoveNext()
+LE.Services.OfflineCharacterService:StartPlay(CharacterData, CancellationToken)
+LE.Services.<StartPlayWithCharacter>d__15:MoveNext()
+LE.Services.DefaultGameplayService:StartPlayWithCharacter(CharacterData, CancellationToken)
+<LoadCharacterByData>d__39:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+LE.Services.<ReturnWhenNotNull>d__69`1:MoveNext()
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:Run()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+ApplyModifiersBeforeExternalStatsCalculationAction:Invoke()
+
+[ line 648] 
+(Filename:  Line: 648)
+
+Initialising NonInteractableItemContainerUI Cursor, which was already active before its content was non-null.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NonInteractableItemContainerUI:OnUpdateTick(Single)
+ObjectiveIncrementedAction:Invoke(Single)
+LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
+LE.CustomUpdate.UpdateSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Setting up 3 worker threads for Enlighten.
-  Thread -> id: 8ac -> priority: 1 
-  Thread -> id: cbc -> priority: 1 
-  Thread -> id: 1a7c -> priority: 1 
-Crash!!!
-SymInit: Symbol-SearchPath: '.;C:\Games\Last Epoch\Offline proxy;C:\Games\Last Epoch;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'Dmytro'
-OS-Version: 10.0.0
-C:\Games\Last Epoch\Last Epoch.exe:Last Epoch.exe (00007FF7D4350000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.40.50731
-C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FF978870000), size: 2064384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2130
-C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF978660000), size: 782336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF975FA0000), size: 2957312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2728
-C:\Windows\SYSTEM32\apphelp.dll:apphelp.dll (00007FF9737A0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Games\Last Epoch\UnityPlayer.dll:UnityPlayer.dll (00007FF924380000), size: 27131904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.40.50731
-C:\Windows\System32\USER32.dll:USER32.dll (00007FF9768E0000), size: 1708032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2486
-C:\Windows\System32\win32u.dll:win32u.dll (00007FF976280000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2728
-C:\Windows\System32\GDI32.dll:GDI32.dll (00007FF976BE0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2130
-C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FF976320000), size: 1110016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2604
-C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FF976430000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
-C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FF9766E0000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
-C:\Windows\System32\ole32.dll:ole32.dll (00007FF9770C0000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
-C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FF9780C0000), size: 1196032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2728
-C:\Windows\System32\combase.dll:combase.dll (00007FF977B50000), size: 3493888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2311
-C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF976C10000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2075
-C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FF977EB0000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.546
-C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FF96DF50000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF9781F0000), size: 4620288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2193
-C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FF976870000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1620
-C:\Windows\System32\bcrypt.dll:bcrypt.dll (00007FF975F70000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2486
-C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF976F60000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2130
-C:\Windows\System32\sechost.dll:sechost.dll (00007FF977FF0000), size: 638976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1865
-C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FF9772E0000), size: 7622656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF976C70000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.985
-C:\Windows\System32\IMM32.dll:IMM32.dll (00007FF978090000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FF9764D0000), size: 1400832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2486
-C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF940050000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2193
-C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FF96A4F0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FF976A90000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF96F9F0000), size: 1089536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FF9747F0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FF94F300000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2193
-C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF973E50000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF9767E0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2486
-C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FF973980000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2193
-C:\Windows\System32\shcore.dll:shcore.dll (00007FF978720000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1865
-C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF974050000), size: 7938048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\SYSTEM32\Wldp.dll:Wldp.dll (00007FF9759D0000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FF975EB0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
-C:\Games\Last Epoch\GameAssembly.dll:GameAssembly.dll (00007FF917010000), size: 96878592 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF9753B0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1865
-C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FF977A30000), size: 1130496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FF971C80000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2075
-C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FF974830000), size: 995328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2311
-C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_d1bd230cd08e7436\nvldumdx.dll:nvldumdx.dll (00007FF96DE00000), size: 778240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.15.2824
-C:\Windows\SYSTEM32\msasn1.dll:msasn1.dll (00007FF975B60000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2251
-C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FF96DDC0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
-C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FF96DC70000), size: 1343488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Windows\SYSTEM32\devobj.dll:devobj.dll (00007FF975D20000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1620
-C:\Windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FF975940000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\WINTRUST.DLL:WINTRUST.DLL (00007FF9762B0000), size: 430080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FF9768C0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1415
-C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF975920000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FF974F70000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
-C:\Windows\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_d1bd230cd08e7436\nvwgf2umx.dll:nvwgf2umx.dll (00007FF963510000), size: 57208832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.15.2824
-C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FF96F830000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FF977010000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF96A4D0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF96A440000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1566
-C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF968FD0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
-C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FF962E40000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\amsi.dll:amsi.dll (00007FF956B00000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2075
-C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (00007FF975E30000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.572
-C:\Program Files\ESET\ESET Endpoint Antivirus\eamsi.dll:eamsi.dll (00007FF956AC0000), size: 237568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.31.29.0
-C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FF96CCC0000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1503
-C:\Windows\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FF9490A0000), size: 1581056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2364
-C:\Windows\SYSTEM32\powrprof.dll:powrprof.dll (00007FF9757B0000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FF975790000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FF973A60000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\NSI.dll:NSI.dll (00007FF9771F0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.610
-C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF970300000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF9702C0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\system32\mswsock.dll:mswsock.dll (00007FF9756C0000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\dcomp.dll:dcomp.dll (00007FF972BC0000), size: 1978368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF973B60000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
-C:\Windows\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FF96C980000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FF973130000), size: 3530752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF975090000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FF972A60000), size: 1392640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2311
-C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FF973490000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2193
-C:\Windows\SYSTEM32\gpapi.dll:gpapi.dll (00007FF974800000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2673
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll:comctl32.dll (00007FF94D300000), size: 2727936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.1110
-C:\Windows\SYSTEM32\xinput1_4.DLL:xinput1_4.DLL (00007FF948F40000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
-C:\Windows\SYSTEM32\inputhost.dll:inputhost.dll (00007FF96C820000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1741
-C:\Windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FF971990000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.1741
-C:\Games\Last Epoch\Last Epoch_Data\Plugins\x86_64\cimgui.dll:cimgui.dll (00007FF92DFC0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF952030000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.31.31103.0
-C:\Windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF952070000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.31.31103.0
-C:\Games\Last Epoch\Last Epoch_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FF92DC90000), size: 3284992 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\XINPUT9_1_0.dll:XINPUT9_1_0.dll (00007FF94F0D0000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\Windows\system32\napinsp.dll:napinsp.dll (00007FF94DA50000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\system32\pnrpnsp.dll:pnrpnsp.dll (00007FF94D9C0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\system32\wshbth.dll:wshbth.dll (00007FF94D900000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\system32\NLAapi.dll:NLAapi.dll (00007FF971A90000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2193
-C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF9753F0000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2546
-C:\Windows\System32\winrnr.dll:winrnr.dll (00007FF94D060000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF96DF60000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF96D800000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2486
-C:\Windows\SYSTEM32\icmp.dll:icmp.dll (00000222A6670000), size: 12288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\Windows\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FF970470000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Games\Last Epoch\Last Epoch_Data\Plugins\x86_64\fmodstudio.dll:fmodstudio.dll (00007FF92D810000), size: 3305472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 0.2.0.21
-C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FF948040000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\Windows\SYSTEM32\winmmbase.dll:winmmbase.dll (00007FF9412A0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\Windows\SYSTEM32\wdmaud.drv:wdmaud.drv (00007FF9483A0000), size: 286720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\Windows\SYSTEM32\ksuser.dll:ksuser.dll (00007FF96D2C0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\Windows\SYSTEM32\AVRT.dll:AVRT.dll (00007FF971470000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
-C:\Windows\SYSTEM32\msacm32.drv:msacm32.drv (00007FF950710000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.488
-C:\Windows\SYSTEM32\midimap.dll:midimap.dll (00007FF950530000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.488
-C:\Games\Last Epoch\Last Epoch_Data\Plugins\x86_64\LogitechLedEnginesWrapper.dll:LogitechLedEnginesWrapper.dll (00007FF94EF90000), size: 36864 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FF92D720000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
-C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF968840000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
-C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FF975E60000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.2130
+Unloading 5 Unused Serialized files (Serialized files now loaded: 20)
 
-========== OUTPUTTING STACK TRACE ==================
+Unloading 96442 unused Assets to reduce memory usage. Loaded Objects now: 874235.
+Total: 1648.596500 ms (FindLiveObjects: 48.360200 ms CreateObjectMapping: 114.550200 ms MarkObjects: 1449.907500 ms  DeleteObjects: 35.778000 ms)
 
-0x00007FF92DDF1D03 (steam_api64) SteamAPI_RestartApp
-0x00007FF92DE21309 (steam_api64) SteamAPI_RestartApp
-0x00007FF9768EE7E8 (USER32) CallWindowProcW
-0x00007FF9768EE36C (USER32) DispatchMessageW
-0x00007FF976900C23 (USER32) SendMessageTimeoutW
-0x00007FF978910EF4 (ntdll) KiUserCallbackDispatcher
-0x00007FF976282384 (win32u) NtUserDestroyWindow
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FF9248CEDA5)
-0x00007FF9248CEDA5 (UnityPlayer) (function-name not available)
-0x00007FF9768EE7E8 (USER32) CallWindowProcW
-0x00007FF97692FFB4 (USER32) LoadMenuA
-0x00007FF9769305FB (USER32) CallWindowProcA
-0x00007FF92DE214D4 (steam_api64) SteamAPI_RestartApp
-0x00007FF9768EE7E8 (USER32) CallWindowProcW
-0x00007FF9768EE36C (USER32) DispatchMessageW
-0x00007FF976900C23 (USER32) SendMessageTimeoutW
-0x00007FF978910EF4 (ntdll) KiUserCallbackDispatcher
-0x00007FF976281124 (win32u) NtUserMessageCall
-0x00007FF9768ECA85 (USER32) GetWindowTextW
-0x00007FF9768EC23F (USER32) IsIconic
-0x00007FF97398E782 (uxtheme) GetUserColorPreference
-0x00007FF973987122 (uxtheme) Ordinal96
-0x00007FF973990869 (uxtheme) IsCompositionActive
-0x00007FF9739902D1 (uxtheme) IsCompositionActive
-0x00007FF9768EC773 (USER32) GetWindowTextW
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FF9248CF186)
-0x00007FF9248CF186 (UnityPlayer) (function-name not available)
-0x00007FF9768EE7E8 (USER32) CallWindowProcW
-0x00007FF97692FFB4 (USER32) LoadMenuA
-0x00007FF9769305FB (USER32) CallWindowProcA
-0x00007FF92DE214D4 (steam_api64) SteamAPI_RestartApp
-0x00007FF9768EE7E8 (USER32) CallWindowProcW
-0x00007FF9768EE229 (USER32) DispatchMessageW
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FF9248BB012)
-0x00007FF9248BB012 (UnityPlayer) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FF9248CD218)
-0x00007FF9248CD218 (UnityPlayer) (function-name not available)
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FF9248D1418)
-0x00007FF9248D1418 (UnityPlayer) (function-name not available)
-0x00007FF9248D4F1B (UnityPlayer) UnityMain
-  ERROR: SymGetSymFromAddr64, GetLastError: 'Попытка обращения к неверному адресу.' (Address: 00007FF7D43511F2)
-0x00007FF7D43511F2 (Last Epoch) (function-name not available)
-0x00007FF978677614 (KERNEL32) BaseThreadInitThunk
-0x00007FF9788C26A1 (ntdll) RtlUserThreadStart
+The referenced script on this Behaviour (Game Object 'flower_daisy') is missing! 
+(Filename:  Line: 334)
 
-========== END OF STACKTRACE ===========
+WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+Unloading 6 Unused Serialized files (Serialized files now loaded: 21)
+UnloadTime: 11.155400 ms
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
 
-A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
- * C:/Users/Dmytro/AppData/Local/Temp/Eleventh Hour Games/Last Epoch/Crashes
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.Object:Instantiate(T)
+AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
+AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:OnEnable()
+
+[ line 334] 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
+UnityEngine.Object:Instantiate(T)
+AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
+AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:OnEnable()
+
+[ line 334] 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
+UnityEngine.Object:Instantiate(T)
+AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
+AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:OnEnable()
+
+[ line 334] 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.Object:Instantiate(T)
+AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
+AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
+GraphicsBackend.GraphicsConfigurationProcessor:ApplyVegetationSettings()
+GraphicsBackend.GraphicsConfigurationProcessor:ApplyInLoadedScene(Boolean)
+UnityEngine.Events.UnityAction`2:Invoke(T0, T1)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
+
+[ line 334] 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
+UnityEngine.Object:Instantiate(T)
+AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
+AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
+GraphicsBackend.GraphicsConfigurationProcessor:ApplyVegetationSettings()
+GraphicsBackend.GraphicsConfigurationProcessor:ApplyInLoadedScene(Boolean)
+UnityEngine.Events.UnityAction`2:Invoke(T0, T1)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
+
+[ line 334] 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
+UnityEngine.Object:Instantiate(T)
+AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
+AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
+AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
+GraphicsBackend.GraphicsConfigurationProcessor:ApplyVegetationSettings()
+GraphicsBackend.GraphicsConfigurationProcessor:ApplyInLoadedScene(Boolean)
+UnityEngine.Events.UnityAction`2:Invoke(T0, T1)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
+
+[ line 334] 
+(Filename:  Line: 334)
+
+Expected loadCharacterButton to be interactable. Race condition?
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+CharacterSelect:OnSceneChanged(String, String)
+System.Action`2:Invoke(T1, T2)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No spawn found with TransitionInfo, Falling back to old spawn selection
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
+<PlacePlayer>d__19:MoveNext()
+PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
+<OnSceneLoadAsync>d__13:MoveNext()
+PlayerSpawnManager:onSceneLoad(String, String)
+System.Action`2:Invoke(T1, T2)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Time to Single load 'Z12' 5,00 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[FMOD] Event not found: 
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
+LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
+<CreateCharacterAsync>d__38:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+<LoadCharacterByData>d__39:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+LE.Services.<StartPlayWithCharacter>d__15:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+LE.Services.<StartPlay>d__13:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 4438 unused Assets to reduce memory usage. Loaded Objects now: 883983.
+Total: 1618.985200 ms (FindLiveObjects: 63.707200 ms CreateObjectMapping: 131.242100 ms MarkObjects: 1418.734700 ms  DeleteObjects: 5.300400 ms)
+
