@@ -2310,3 +2310,394 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+Coroutine couldn't be started because the the game object 'QuestTrackerQuest(Clone)' is inactive!
+QuestTrackerUI:refresh(Boolean)
+StatefulQuestList:refreshDisplay()
+StatefulQuestList:completeQuestStep(StatefulQuest, Boolean)
+StatefulQuestList:evaluateQuestStepState(StatefulQuest, Boolean)
+StatefulQuestList:completeStatefulObjective(StatefulObjective, Boolean, Boolean)
+StatefulQuestList:completeObjective(Objective, Boolean, Boolean)
+LE.SceneState.Actions.Quests.CatchupQuestObjectives:Enter(PlayerActorSync, InstantiatedContext)
+LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
+LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
+LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Core.TownSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+EventListener:triggerDialogueListeners(String, GameObject)
+System.Action`1:Invoke(T)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent:Invoke()
+PixelCrushers.DialogueSystem.ConversationModel:GetState(DialogueEntry, Boolean, Boolean, Boolean)
+PixelCrushers.DialogueSystem.ConversationController:OnSelectedResponse(Object, SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.ConversationView:SelectResponse(SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.AbstractDialogueUI:OnClick(Object)
+PixelCrushers.DialogueSystem.TextMeshPro.TextMeshProResponseButton:OnClick()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[ line 743] 
+(Filename:  Line: 743)
+
+Coroutine couldn't be started because the the game object 'QuestTrackerQuest(Clone)' is inactive!
+QuestTrackerUI:refresh(Boolean)
+StatefulQuestList:refreshDisplay()
+StatefulQuestList:completeQuestStep(StatefulQuest, Boolean)
+StatefulQuestList:evaluateQuestStepState(StatefulQuest, Boolean)
+StatefulQuestList:completeStatefulObjective(StatefulObjective, Boolean, Boolean)
+StatefulQuestList:completeObjective(Objective, Boolean, Boolean)
+LE.SceneState.Actions.Quests.CatchupQuestObjectives:Enter(PlayerActorSync, InstantiatedContext)
+LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
+LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
+LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Core.TownSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+EventListener:triggerDialogueListeners(String, GameObject)
+System.Action`1:Invoke(T)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent:Invoke()
+PixelCrushers.DialogueSystem.ConversationModel:GetState(DialogueEntry, Boolean, Boolean, Boolean)
+PixelCrushers.DialogueSystem.ConversationController:OnSelectedResponse(Object, SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.ConversationView:SelectResponse(SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.AbstractDialogueUI:OnClick(Object)
+PixelCrushers.DialogueSystem.TextMeshPro.TextMeshProResponseButton:OnClick()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[ line 743] 
+(Filename:  Line: 743)
+
+Coroutine couldn't be started because the the game object 'QuestTrackerQuest(Clone)' is inactive!
+QuestTrackerUI:refresh(Boolean)
+StatefulQuestList:refreshDisplay()
+StatefulQuestList:completeQuestStep(StatefulQuest, Boolean)
+StatefulQuestList:evaluateQuestStepState(StatefulQuest, Boolean)
+StatefulQuestList:completeStatefulObjective(StatefulObjective, Boolean, Boolean)
+StatefulQuestList:completeObjective(Objective, Boolean, Boolean)
+LE.SceneState.Actions.Quests.CatchupQuestObjectives:Enter(PlayerActorSync, InstantiatedContext)
+LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
+LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
+LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Core.TownSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+EventListener:triggerDialogueListeners(String, GameObject)
+System.Action`1:Invoke(T)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent:Invoke()
+PixelCrushers.DialogueSystem.ConversationModel:GetState(DialogueEntry, Boolean, Boolean, Boolean)
+PixelCrushers.DialogueSystem.ConversationController:OnSelectedResponse(Object, SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.ConversationView:SelectResponse(SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.AbstractDialogueUI:OnClick(Object)
+PixelCrushers.DialogueSystem.TextMeshPro.TextMeshProResponseButton:OnClick()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[ line 743] 
+(Filename:  Line: 743)
+
+Coroutine couldn't be started because the the game object 'QuestTrackerQuest(Clone)' is inactive!
+QuestTrackerUI:refresh(Boolean)
+StatefulQuestList:refreshDisplay()
+StatefulQuestList:completeStatefulObjective(StatefulObjective, Boolean, Boolean)
+StatefulQuestList:completeObjective(Objective, Boolean, Boolean)
+LE.SceneState.Actions.Quests.CatchupQuestObjectives:Enter(PlayerActorSync, InstantiatedContext)
+LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
+LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
+LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Core.TownSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+EventListener:triggerDialogueListeners(String, GameObject)
+System.Action`1:Invoke(T)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent:Invoke()
+PixelCrushers.DialogueSystem.ConversationModel:GetState(DialogueEntry, Boolean, Boolean, Boolean)
+PixelCrushers.DialogueSystem.ConversationController:OnSelectedResponse(Object, SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.ConversationView:SelectResponse(SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.AbstractDialogueUI:OnClick(Object)
+PixelCrushers.DialogueSystem.TextMeshPro.TextMeshProResponseButton:OnClick()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[ line 743] 
+(Filename:  Line: 743)
+
+Coroutine couldn't be started because the the game object 'QuestTrackerQuest(Clone)' is inactive!
+QuestTrackerUI:refresh(Boolean)
+StatefulQuestList:refreshDisplay()
+StatefulQuestList:completeStatefulObjective(StatefulObjective, Boolean, Boolean)
+StatefulQuestList:completeObjective(Objective, Boolean, Boolean)
+LE.SceneState.Actions.Quests.CatchupQuestObjectives:Enter(PlayerActorSync, InstantiatedContext)
+LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
+LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
+LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Core.TownSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+EventListener:triggerDialogueListeners(String, GameObject)
+System.Action`1:Invoke(T)
+UnityEngine.Events.InvokableCall`1:Invoke(T1)
+UnityEngine.Events.UnityEvent:Invoke()
+PixelCrushers.DialogueSystem.ConversationModel:GetState(DialogueEntry, Boolean, Boolean, Boolean)
+PixelCrushers.DialogueSystem.ConversationController:OnSelectedResponse(Object, SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.ConversationView:SelectResponse(SelectedResponseEventArgs)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+PixelCrushers.DialogueSystem.AbstractDialogueUI:OnClick(Object)
+PixelCrushers.DialogueSystem.TextMeshPro.TextMeshProResponseButton:OnClick()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[ line 743] 
+(Filename:  Line: 743)
+
+NotImplementedException: The method or operation is not implemented.
+  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
+LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
+System.Action`3:Invoke(T1, T2, T3)
+LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
+LE.Services.Transitions.<Default>d__8:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
+<HandleInteraction>d__3:MoveNext()
+LoadSceneInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+WorldAreaEnterListener:OnTriggerEnter(Collider)
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:BeginAssetLoad()
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:Start(ProvideHandle)
+UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider:Provide(ProvideHandle)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.GroupOperation:CompleteIfDependenciesComplete()
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+UnityEngine.Events.UnityAction`1:Invoke(T0)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource:CompleteBundleLoad(AssetBundle)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource:GetAssetBundle()
+UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource:WaitForCompletionHandler()
+System.Func`1:Invoke()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:WaitForCompletion()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle:WaitForCompletion()
+UnityEngine.ResourceManagement.AsyncOperations.GroupOperation:InvokeWaitForCompletion()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:WaitForCompletion()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1:WaitForCompletion()
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:InvokeWaitForCompletion()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:WaitForCompletion()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1:WaitForCompletion()
+LE.AssetManagement.SceneReferenceManager:Load(AssetReferenceGameObject, Boolean)
+LE.AssetManagement.SceneReferenceManager:LoadActor(ActorData, Boolean)
+LE.AssetManagement.SceneReferenceManager:PreloadScene(String)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+ApplyModifiersBeforeExternalStatsCalculationAction:Invoke()
+
+[ line 334] 
+(Filename:  Line: 334)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 24)
+
+Unloading 1301 unused Assets to reduce memory usage. Loaded Objects now: 1047191.
+Total: 1550.298600 ms (FindLiveObjects: 56.392300 ms CreateObjectMapping: 95.783400 ms MarkObjects: 1396.188800 ms  DeleteObjects: 1.933600 ms)
+
+The referenced script on this Behaviour (Game Object '!ftraceLightmaps') is missing! 
+(Filename:  Line: 334)
+
+Unloading 17 Unused Serialized files (Serialized files now loaded: 24)
+UnloadTime: 33.153100 ms
+No spawn found with TransitionInfo, Falling back to old spawn selection
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
+<PlacePlayer>d__19:MoveNext()
+PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
+<OnSceneLoadAsync>d__13:MoveNext()
+PlayerSpawnManager:onSceneLoad(String, String)
+System.Action`2:Invoke(T1, T2)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Time to Single load 'A40' 4,96 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 7646 unused Assets to reduce memory usage. Loaded Objects now: 1053328.
+Total: 1517.505800 ms (FindLiveObjects: 53.822100 ms CreateObjectMapping: 95.519800 ms MarkObjects: 1363.877500 ms  DeleteObjects: 4.286100 ms)
+
+NotImplementedException: The method or operation is not implemented.
+  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
+LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
+System.Action`3:Invoke(T1, T2, T3)
+LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
+LE.Services.Transitions.<Default>d__8:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
+<HandleInteraction>d__3:MoveNext()
+LoadSceneInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+WorldAreaEnterListener:OnTriggerEnter(Collider)
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+
+Unloading 290 unused Assets to reduce memory usage. Loaded Objects now: 1048533.
+Total: 1518.904000 ms (FindLiveObjects: 48.647500 ms CreateObjectMapping: 93.018200 ms MarkObjects: 1373.422900 ms  DeleteObjects: 3.815100 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 37.117400 ms
+No spawn found with TransitionInfo, Falling back to old spawn selection
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
+<PlacePlayer>d__19:MoveNext()
+PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
+<OnSceneLoadAsync>d__13:MoveNext()
+PlayerSpawnManager:onSceneLoad(String, String)
+System.Action`2:Invoke(T1, T2)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Time to Single load 'A3S10' 3,66 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 705 unused Assets to reduce memory usage. Loaded Objects now: 1003338.
+Total: 1502.437200 ms (FindLiveObjects: 51.244300 ms CreateObjectMapping: 93.480500 ms MarkObjects: 1355.231200 ms  DeleteObjects: 2.480900 ms)
+
