@@ -4077,3 +4077,38 @@ SpeedManager:Start()
 Unloading 638 unused Assets to reduce memory usage. Loaded Objects now: 1016015.
 Total: 1872.884900 ms (FindLiveObjects: 70.986200 ms CreateObjectMapping: 113.745800 ms MarkObjects: 1686.224400 ms  DeleteObjects: 1.928200 ms)
 
+UILocalization: Component on Rolling was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on ItemReceived was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Rolling was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on ItemReceived was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on NewSkillAnnouncement was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
