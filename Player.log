@@ -5897,3 +5897,80 @@ LE.CustomUpdate.UpdateSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+NotImplementedException: The method or operation is not implemented.
+  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<ToTownPortal>d__9.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.ToTownPortal (LE.Services.Models.UserIdentity userIdentity, System.String townScene, UnityEngine.Vector3 portalPos) [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalLogicController+<HandleTownPortalAsync>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalLogicController.OnAttemptUse (PlayerActorSync player) [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalSync.ReceiveAttemptUse (PlayerActorSync playerActorSync) [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalSync.SendAttemptUse () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorldObjectClickListener.ObjectClick (UnityEngine.GameObject playerObject, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at EpochInputManager.HandleMovementInput (System.Boolean moveButton, System.Boolean moveButtonDown, System.Boolean dontMove) [0x00000] in <00000000000000000000000000000000>:0 
+  at EpochInputManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
+LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
+System.Action`3:Invoke(T1, T2, T3)
+LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
+LE.Services.Transitions.<ToTownPortal>d__9:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:ToTownPortal(UserIdentity, String, Vector3)
+Networking.Multiplayer.Interactables.Portals.<HandleTownPortalAsync>d__8:MoveNext()
+Networking.Multiplayer.Interactables.Portals.PortalLogicController:OnAttemptUse(PlayerActorSync)
+Networking.Multiplayer.Interactables.Portals.PortalSync:ReceiveAttemptUse(PlayerActorSync)
+Networking.Multiplayer.Interactables.Portals.PortalSync:SendAttemptUse()
+SendBird.DisconnectHandler:Invoke()
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+WorldObjectClickListener:ObjectClick(GameObject, Boolean)
+EpochInputManager:HandleMovementInput(Boolean, Boolean, Boolean)
+EpochInputManager:Update()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 25)
+
+Unloading 846 unused Assets to reduce memory usage. Loaded Objects now: 1060594.
+Total: 1578.875100 ms (FindLiveObjects: 49.680100 ms CreateObjectMapping: 93.906900 ms MarkObjects: 1432.376400 ms  DeleteObjects: 2.911300 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 25)
+NullReferenceException: Object reference not set to an instance of an object.
+  at Networking.Multiplayer.Interactables.Portals.PortalVisualController.InitiateDestruction () [0x00000] in <00000000000000000000000000000000>:0 
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+UnloadTime: 41.848300 ms
+UpdateSystem should not be added to scenes. Please delete UpdateManager.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+LE.CustomUpdate.UpdateSystem:Awake()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Time to Single load 'A30' 2,87 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 598 unused Assets to reduce memory usage. Loaded Objects now: 1051535.
+Total: 1562.085000 ms (FindLiveObjects: 52.539900 ms CreateObjectMapping: 97.227400 ms MarkObjects: 1409.926300 ms  DeleteObjects: 2.391100 ms)
+
