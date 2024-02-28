@@ -402,7 +402,7 @@ LE.Caching.Serialization:GetSerializers()
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.854600 ms
+UnloadTime: 8.418200 ms
 Locale changed to Russian (ru)
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
@@ -587,7 +587,7 @@ ImGuiNET.Unity.DearImGui:OnEnable()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-UnloadTime: 11.094300 ms
+UnloadTime: 7.725600 ms
 UpdateSystem should not be added to scenes. Please delete UpdateManager.
 UnityEngine.Logger:Log(LogType, Object, Object)
 UnityEngine.Debug:LogWarning(Object, Object)
@@ -597,10 +597,10 @@ LE.CustomUpdate.UpdateSystem:Awake()
 
 
 Unloading 22116 unused Assets to reduce memory usage. Loaded Objects now: 789710.
-Total: 1403.006600 ms (FindLiveObjects: 39.304300 ms CreateObjectMapping: 96.080000 ms MarkObjects: 1260.326600 ms  DeleteObjects: 7.295100 ms)
+Total: 1346.780900 ms (FindLiveObjects: 33.898900 ms CreateObjectMapping: 89.530600 ms MarkObjects: 1214.513500 ms  DeleteObjects: 8.837600 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 13)
-UnloadTime: 7.916800 ms
+UnloadTime: 9.502000 ms
 UpdateSystem should not be added to scenes. Please delete UpdateManager.
 UnityEngine.Logger:Log(LogType, Object, Object)
 UnityEngine.Debug:LogWarning(Object, Object)
@@ -610,7 +610,7 @@ LE.CustomUpdate.UpdateSystem:Awake()
 
 
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 789715.
-Total: 1417.374500 ms (FindLiveObjects: 34.807500 ms CreateObjectMapping: 92.110300 ms MarkObjects: 1289.560400 ms  DeleteObjects: 0.895700 ms)
+Total: 1328.054600 ms (FindLiveObjects: 36.021400 ms CreateObjectMapping: 91.928600 ms MarkObjects: 1199.191000 ms  DeleteObjects: 0.913300 ms)
 
 The referenced script on this Behaviour (Game Object '<null>') is missing! 
 (Filename:  Line: 334)
@@ -770,15 +770,13 @@ LE.CustomUpdate.UpdateSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 21)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 19)
 
-Unloading 97959 unused Assets to reduce memory usage. Loaded Objects now: 872700.
-Total: 1368.051300 ms (FindLiveObjects: 45.503900 ms CreateObjectMapping: 95.774700 ms MarkObjects: 1197.949100 ms  DeleteObjects: 28.823300 ms)
+Unloading 96277 unused Assets to reduce memory usage. Loaded Objects now: 872288.
+Total: 1320.069700 ms (FindLiveObjects: 40.529500 ms CreateObjectMapping: 93.442100 ms MarkObjects: 1158.671300 ms  DeleteObjects: 27.426500 ms)
 
-Unloading 8 Unused Serialized files (Serialized files now loaded: 21)
-WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-UnloadTime: 9.443000 ms
+Unloading 16 Unused Serialized files (Serialized files now loaded: 19)
+UnloadTime: 10.122900 ms
 Failed to create agent because it is not close enough to the NavMesh 
 (Filename:  Line: 648)
 
@@ -806,7 +804,7 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Time to Single load 'Z32' 3,93 s
+Time to Single load 'A30' 3,08 s
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 <LoadSceneAsync>d__16:MoveNext()
@@ -817,232 +815,29 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-
-Unloading 939 unused Assets to reduce memory usage. Loaded Objects now: 919939.
-Total: 1342.130100 ms (FindLiveObjects: 47.193800 ms CreateObjectMapping: 89.769100 ms MarkObjects: 1201.442600 ms  DeleteObjects: 3.724000 ms)
-
-Uploading Crash Report
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Waypoint>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Waypoint (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateID) [0x00000] in <00000000000000000000000000000000>:0 
-  at UIWaypointStandard.LoadWaypointScene () [0x00000] in <00000000000000000000000000000000>:0 
-  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMousePress (Rewired.Integration.UnityUI.RewiredPointerInputModule+MouseButtonEventData data) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Waypoint>d__11:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Waypoint(UserIdentity, String, Byte)
-UIWaypointStandard:LoadWaypointScene()
-SendBird.DisconnectHandler:Invoke()
-UnityEngine.Events.InvokableCall:Invoke(Object[])
-UnityEngine.Events.UnityEvent:Invoke()
-System.EventHandler`1:Invoke(Object, TEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 22)
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 934883.
-Total: 1309.583300 ms (FindLiveObjects: 38.206300 ms CreateObjectMapping: 87.254200 ms MarkObjects: 1183.171200 ms  DeleteObjects: 0.951200 ms)
-
-The referenced script on this Behaviour (Game Object 'flower_daisy') is missing! 
-(Filename:  Line: 334)
-
-Unloading 11 Unused Serialized files (Serialized files now loaded: 22)
-UnloadTime: 30.967000 ms
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.Object:Instantiate(T)
-AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
-AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:OnEnable()
-
-[ line 334] 
-(Filename:  Line: 334)
-
-The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
-UnityEngine.Object:Instantiate(T)
-AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
-AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:OnEnable()
-
-[ line 334] 
-(Filename:  Line: 334)
-
-The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
-UnityEngine.Object:Instantiate(T)
-AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
-AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:OnEnable()
-
-[ line 334] 
-(Filename:  Line: 334)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.Object:Instantiate(T)
-AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
-AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
-GraphicsBackend.GraphicsConfigurationProcessor:ApplyVegetationSettings()
-GraphicsBackend.GraphicsConfigurationProcessor:ApplyInLoadedScene(Boolean)
-UnityEngine.Events.UnityAction`2:Invoke(T0, T1)
-UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
-
-[ line 334] 
-(Filename:  Line: 334)
-
-The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
-UnityEngine.Object:Instantiate(T)
-AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
-AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
-GraphicsBackend.GraphicsConfigurationProcessor:ApplyVegetationSettings()
-GraphicsBackend.GraphicsConfigurationProcessor:ApplyInLoadedScene(Boolean)
-UnityEngine.Events.UnityAction`2:Invoke(T0, T1)
-UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
-
-[ line 334] 
-(Filename:  Line: 334)
-
-The referenced script on this Behaviour (Game Object 'flower_daisy') is missing!
-UnityEngine.Object:Instantiate(T)
-AwesomeTechnologies.MeshUtils:CalculateBoundsInstantiate(GameObject)
-AwesomeTechnologies.VegetationSystem.VegetationItemModelInfo:.ctor(VegetationItemInfoPro, EnvironmentSettings, List`1, Int32)
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationItemModels()
-AwesomeTechnologies.VegetationSystem.VegetationSystemPro:SetupVegetationSystem()
-GraphicsBackend.GraphicsConfigurationProcessor:ApplyVegetationSettings()
-GraphicsBackend.GraphicsConfigurationProcessor:ApplyInLoadedScene(Boolean)
-UnityEngine.Events.UnityAction`2:Invoke(T0, T1)
-UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
-
-[ line 334] 
-(Filename:  Line: 334)
-
-Time to Single load 'Z72' 2,58 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 1372 unused Assets to reduce memory usage. Loaded Objects now: 893190.
-Total: 1321.966400 ms (FindLiveObjects: 47.125000 ms CreateObjectMapping: 88.602000 ms MarkObjects: 1182.554400 ms  DeleteObjects: 3.684800 ms)
-
-UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+[FMOD] Event not found: 
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
+FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
+LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
+PlayOneShotSound:PlayNonVoiceSound()
+LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
+LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
+LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Core.InstantiatedSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+EventListener:triggerDialogueListeners(String, GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+WorldAreaEnterListener:OnTriggerEnter(Collider)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-UILocalization: Component on Description was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Description was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on EnduranceTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on WardTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Description was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on HealthTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+Unloading 754 unused Assets to reduce memory usage. Loaded Objects now: 921322.
+Total: 1313.132200 ms (FindLiveObjects: 50.715500 ms CreateObjectMapping: 89.322200 ms MarkObjects: 1169.774800 ms  DeleteObjects: 3.319400 ms)
 
 UILocalization: Component on ScalingTagsHeader was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
@@ -1050,80 +845,6 @@ UnityEngine.Debug:LogWarning(Object)
 LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Waypoint>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Waypoint (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateID) [0x00000] in <00000000000000000000000000000000>:0 
-  at UIWaypointStandard.LoadWaypointScene () [0x00000] in <00000000000000000000000000000000>:0 
-  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMousePress (Rewired.Integration.UnityUI.RewiredPointerInputModule+MouseButtonEventData data) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Waypoint>d__11:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Waypoint(UserIdentity, String, Byte)
-UIWaypointStandard:LoadWaypointScene()
-SendBird.DisconnectHandler:Invoke()
-UnityEngine.Events.InvokableCall:Invoke(Object[])
-UnityEngine.Events.UnityEvent:Invoke()
-System.EventHandler`1:Invoke(Object, TEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
-
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 894191.
-Total: 1306.775200 ms (FindLiveObjects: 38.017100 ms CreateObjectMapping: 83.363600 ms MarkObjects: 1184.453700 ms  DeleteObjects: 0.940600 ms)
-
-Unloading 8 Unused Serialized files (Serialized files now loaded: 24)
-UnloadTime: 14.825100 ms
-UpdateSystem should not be added to scenes. Please delete UpdateManager.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-LE.CustomUpdate.UpdateSystem:Awake()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'Z32' 2,64 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 501 unused Assets to reduce memory usage. Loaded Objects now: 934817.
-Total: 1353.739900 ms (FindLiveObjects: 52.109900 ms CreateObjectMapping: 86.052700 ms MarkObjects: 1213.885900 ms  DeleteObjects: 1.691000 ms)
 
 UILocalization: Component on Header was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
@@ -1160,231 +881,17 @@ LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Uploading Crash Report
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 22)
-
-Unloading 867 unused Assets to reduce memory usage. Loaded Objects now: 1013740.
-Total: 1425.889900 ms (FindLiveObjects: 51.203800 ms CreateObjectMapping: 89.936500 ms MarkObjects: 1283.295500 ms  DeleteObjects: 1.453900 ms)
-
-Unloading 14 Unused Serialized files (Serialized files now loaded: 22)
-UnloadTime: 28.774100 ms
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'Z82' 3,58 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 10837 unused Assets to reduce memory usage. Loaded Objects now: 982060.
-Total: 1501.887500 ms (FindLiveObjects: 56.009800 ms CreateObjectMapping: 111.090100 ms MarkObjects: 1328.805400 ms  DeleteObjects: 5.981900 ms)
-
-Uploading Crash Report
-IndexOutOfRangeException: Index was outside the bounds of the array.
-  at EquippedItemsNavigable.Select () [0x00000] in <00000000000000000000000000000000>:0 
-  at NavigationManager.TryToSelectNavigableFromIDAndSetIndex (NavigableID id, UnityEngine.Vector2Int index) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.SelectNavigableUnderPointer () [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.onPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.BaseInputModule.HandlePointerExitAndEnter (UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unable to Deselect currently selected ID: -1,-1 is Out of Bounds! Array size is: [3,4]
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-EquippedItemsNavigable:Deselect()
-NavigationManager:TryToSelectNavigableFromIDAndSetIndex(NavigableID, Vector2Int)
-ItemContainerUI:SelectNavigableUnderPointer()
-ItemContainerUI:onPointerEnter(PointerEventData)
-ItemContainerUI:UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter(PointerEventData)
-System.EventHandler`1:Invoke(Object, TEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on NewSkillAnnouncement was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UILocalization: Component on MasterySkillTMP was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
 LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UILocalization: Component on Passive Bonuses Header was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
 LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 25)
-
-Unloading 752 unused Assets to reduce memory usage. Loaded Objects now: 991248.
-Total: 1475.697700 ms (FindLiveObjects: 46.277700 ms CreateObjectMapping: 85.218300 ms MarkObjects: 1342.682800 ms  DeleteObjects: 1.518500 ms)
-
-Unloading 13 Unused Serialized files (Serialized files now loaded: 25)
-UnloadTime: 25.432800 ms
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'Z92' 3,22 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 3424 unused Assets to reduce memory usage. Loaded Objects now: 984807.
-Total: 1454.926600 ms (FindLiveObjects: 52.337300 ms CreateObjectMapping: 87.511100 ms MarkObjects: 1311.861700 ms  DeleteObjects: 3.216200 ms)
-
-<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 500/50. Use DOTween.SetTweensCapacity to set it manually at startup
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
-DG.Tweening.Core.TweenManager:GetTweener()
-DG.Tweening.DOTween:ApplyTo(DOGetter`1, DOSetter`1, T2, Single, ABSTweenPlugin`3)
-DG.Tweening.DOTween:To(DOGetter`1, DOSetter`1, Color, Single)
-DG.Tweening.DOTweenModuleUI:DOColor(Graphic, Color, Single)
-DG.Tweening.DOTweenAnimation:CreateTween()
-DG.Tweening.DOTweenAnimation:Awake()
-SkillTree:open()
-SkillsPanelManager:openSkillTree(Ability)
-SpecialisedAbilityIcon:clicked()
-SendBird.DisconnectHandler:Invoke()
-UnityEngine.Events.InvokableCall:Invoke(Object[])
-UnityEngine.Events.UnityEvent:Invoke()
-System.EventHandler`1:Invoke(Object, TEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1404,84 +911,6 @@ NotImplementedException: The method or operation is not implemented.
   at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
   at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
   at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<ToTownPortal>d__9.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.ToTownPortal (LE.Services.Models.UserIdentity userIdentity, System.String townScene, UnityEngine.Vector3 portalPos) [0x00000] in <00000000000000000000000000000000>:0 
-  at Networking.Multiplayer.Interactables.Portals.PortalLogicController+<HandleTownPortalAsync>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at Networking.Multiplayer.Interactables.Portals.PortalLogicController.OnAttemptUse (PlayerActorSync player) [0x00000] in <00000000000000000000000000000000>:0 
-  at Networking.Multiplayer.Interactables.Portals.PortalSync.ReceiveAttemptUse (PlayerActorSync playerActorSync) [0x00000] in <00000000000000000000000000000000>:0 
-  at Networking.Multiplayer.Interactables.Portals.PortalSync.SendAttemptUse () [0x00000] in <00000000000000000000000000000000>:0 
-  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldObjectClickListener.ObjectClick (UnityEngine.GameObject playerObject, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
-  at EpochInputManager.HandleMovementInput (System.Boolean moveButton, System.Boolean moveButtonDown, System.Boolean dontMove) [0x00000] in <00000000000000000000000000000000>:0 
-  at EpochInputManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<ToTownPortal>d__9:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:ToTownPortal(UserIdentity, String, Vector3)
-Networking.Multiplayer.Interactables.Portals.<HandleTownPortalAsync>d__8:MoveNext()
-Networking.Multiplayer.Interactables.Portals.PortalLogicController:OnAttemptUse(PlayerActorSync)
-Networking.Multiplayer.Interactables.Portals.PortalSync:ReceiveAttemptUse(PlayerActorSync)
-Networking.Multiplayer.Interactables.Portals.PortalSync:SendAttemptUse()
-SendBird.DisconnectHandler:Invoke()
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldObjectClickListener:ObjectClick(GameObject, Boolean)
-EpochInputManager:HandleMovementInput(Boolean, Boolean, Boolean)
-EpochInputManager:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 25)
-
-Unloading 3170 unused Assets to reduce memory usage. Loaded Objects now: 997469.
-Total: 1483.209300 ms (FindLiveObjects: 47.315600 ms CreateObjectMapping: 90.090800 ms MarkObjects: 1341.995000 ms  DeleteObjects: 3.807500 ms)
-
-Unloading 8 Unused Serialized files (Serialized files now loaded: 25)
-Uploading Crash Report
-NullReferenceException: Object reference not set to an instance of an object.
-  at Networking.Multiplayer.Interactables.Portals.PortalVisualController.InitiateDestruction () [0x00000] in <00000000000000000000000000000000>:0 
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-UnloadTime: 18.906200 ms
-UpdateSystem should not be added to scenes. Please delete UpdateManager.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-LE.CustomUpdate.UpdateSystem:Awake()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'Z32' 3,14 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 2185 unused Assets to reduce memory usage. Loaded Objects now: 1030461.
-Total: 1501.257200 ms (FindLiveObjects: 60.036600 ms CreateObjectMapping: 96.783100 ms MarkObjects: 1342.008800 ms  DeleteObjects: 2.428300 ms)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
   at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
   at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
   at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
@@ -1507,18 +936,18 @@ WorldAreaEnterListener:OnTriggerEnter(Collider)
  
 (Filename: currently not available on il2cpp Line: -1)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 25)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 22)
 
-Unloading 1233 unused Assets to reduce memory usage. Loaded Objects now: 1039550.
-Total: 1486.486100 ms (FindLiveObjects: 49.865200 ms CreateObjectMapping: 95.440500 ms MarkObjects: 1339.509400 ms  DeleteObjects: 1.670700 ms)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1002855.
+Total: 1422.590600 ms (FindLiveObjects: 48.539700 ms CreateObjectMapping: 87.680000 ms MarkObjects: 1285.340600 ms  DeleteObjects: 1.030000 ms)
 
-Unloading 14 Unused Serialized files (Serialized files now loaded: 25)
-NullReferenceException: Object reference not set to an instance of an object.
-  at Networking.Multiplayer.Interactables.Portals.PortalVisualController.InitiateDestruction () [0x00000] in <00000000000000000000000000000000>:0 
- 
-(Filename: currently not available on il2cpp Line: -1)
+The referenced script on this Behaviour (Game Object '!ftraceLightmaps') is missing! 
+(Filename:  Line: 334)
 
-UnloadTime: 30.409200 ms
+Unloading 20 Unused Serialized files (Serialized files now loaded: 22)
+WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+UnloadTime: 30.142200 ms
 No spawn found with TransitionInfo, Falling back to old spawn selection
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
@@ -1536,7 +965,7 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Time to Single load 'Z82' 3,36 s
+Time to Single load 'A60' 4,99 s
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 <LoadSceneAsync>d__16:MoveNext()
@@ -1548,8 +977,170 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 8456 unused Assets to reduce memory usage. Loaded Objects now: 1004814.
-Total: 1514.864700 ms (FindLiveObjects: 64.825200 ms CreateObjectMapping: 101.355500 ms MarkObjects: 1343.037900 ms  DeleteObjects: 5.645800 ms)
+Unloading 9799 unused Assets to reduce memory usage. Loaded Objects now: 990678.
+Total: 1443.690300 ms (FindLiveObjects: 49.935400 ms CreateObjectMapping: 89.512700 ms MarkObjects: 1298.468900 ms  DeleteObjects: 5.773000 ms)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Uploading Crash Report
+EventNotFoundException: [FMOD] Event not found 'event:/Environment/Wood/sfx_environment_crate_smash'
+  at FMODUnity.RuntimeManager.GetEventDescription (System.String path) [0x00000] in <00000000000000000000000000000000>:0 
+  at FMODUnity.StudioEventEmitter.Lookup () [0x00000] in <00000000000000000000000000000000>:0 
+  at FMODUnity.StudioEventEmitter.Play () [0x00000] in <00000000000000000000000000000000>:0 
+  at FMODUnity.StudioEventEmitter.HandleGameEvent (FMODUnity.EmitterGameEvent gameEvent) [0x00000] in <00000000000000000000000000000000>:0 
+  at FMODUnity.StudioEventEmitter.Start () [0x00000] in <00000000000000000000000000000000>:0 
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Uploading Crash Report
+NotImplementedException: The method or operation is not implemented.
+  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at TimeTravelManager+<TriggerHandlerPostLoad>d__18.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
+LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
+System.Action`3:Invoke(T1, T2, T3)
+LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
+LE.Services.Transitions.<Default>d__8:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
+<HandleInteraction>d__3:MoveNext()
+LoadSceneInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+<TriggerHandlerPostLoad>d__18:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
+
+Unloading 4977 unused Assets to reduce memory usage. Loaded Objects now: 982267.
+Total: 1441.494000 ms (FindLiveObjects: 41.511200 ms CreateObjectMapping: 87.622000 ms MarkObjects: 1303.761200 ms  DeleteObjects: 8.599300 ms)
+
+Unloading 18 Unused Serialized files (Serialized files now loaded: 24)
+UnloadTime: 29.629800 ms
+No spawn found with TransitionInfo, Falling back to old spawn selection
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
+<PlacePlayer>d__19:MoveNext()
+PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
+<OnSceneLoadAsync>d__13:MoveNext()
+PlayerSpawnManager:onSceneLoad(String, String)
+System.Action`2:Invoke(T1, T2)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Time to Single load 'A60TR' 3,45 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 3446 unused Assets to reduce memory usage. Loaded Objects now: 976615.
+Total: 1445.023800 ms (FindLiveObjects: 48.006600 ms CreateObjectMapping: 88.002800 ms MarkObjects: 1306.134500 ms  DeleteObjects: 2.879600 ms)
 
 UILocalization: Component on MinimumLevel was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
@@ -1558,212 +1149,14 @@ LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 26)
-
-Unloading 609 unused Assets to reduce memory usage. Loaded Objects now: 1012731.
-Total: 1499.711400 ms (FindLiveObjects: 47.004000 ms CreateObjectMapping: 93.743300 ms MarkObjects: 1357.503200 ms  DeleteObjects: 1.460500 ms)
-
-Unloading 13 Unused Serialized files (Serialized files now loaded: 26)
-UnloadTime: 27.524800 ms
-No spawn found with TransitionInfo, Falling back to old spawn selection
+UILocalization: Component on Does Not Scale was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'Z92' 3,11 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 3423 unused Assets to reduce memory usage. Loaded Objects now: 998816.
-Total: 1510.876100 ms (FindLiveObjects: 55.363500 ms CreateObjectMapping: 96.881400 ms MarkObjects: 1355.841500 ms  DeleteObjects: 2.789300 ms)
-
-Uploading Crash Report
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.ThrowHelper.ThrowInvalidOperationException (System.ExceptionResource resource) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at FireAuraMutator.OnUpdateTick (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at StatefulQuestList+ObjectiveIncrementedAction.Invoke (System.Single damage) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.CustomUpdate.UpdateSystemCallbackManager.InternalUpdate (System.Collections.Generic.List`1[T] batches, System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.CustomUpdate.UpdateSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-InvalidOperationException: Collection was modified; enumeration operation may not execute.
-  at System.ThrowHelper.ThrowInvalidOperationException (System.ExceptionResource resource) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Collections.Generic.List`1+Enumerator[T].MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at FireAuraMutator.OnUpdateTick (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at StatefulQuestList+ObjectiveIncrementedAction.Invoke (System.Single damage) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.CustomUpdate.UpdateSystemCallbackManager.InternalUpdate (System.Collections.Generic.List`1[T] batches, System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.CustomUpdate.UpdateSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
-
-Unloading 2734 unused Assets to reduce memory usage. Loaded Objects now: 996910.
-Total: 1515.376500 ms (FindLiveObjects: 48.389500 ms CreateObjectMapping: 93.542500 ms MarkObjects: 1371.025500 ms  DeleteObjects: 2.418600 ms)
-
-Unloading 15 Unused Serialized files (Serialized files now loaded: 24)
-UnloadTime: 17.430400 ms
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'Z102' 3,04 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
+LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Uploading Crash Report
-NullReferenceException: Object reference not set to an instance of an object.
-  at PreparedVisualsSpawner.spawnIndividual (Actor actor) [0x00000] in <00000000000000000000000000000000>:0 
-  at MonsterGenerator.generateCommonPack (ActorData monsterType, Spawner spawner, System.Int32 frequency, System.Int32 maximumFrequencyDeviation, System.Boolean enableAutoCombat, System.Boolean noWandering, System.Boolean scaleToAreaLevel, System.Boolean rename, System.Int32 namelistIndex, System.Int32 newNameIndex, System.Boolean changeIdleAudio, System.Int32 idleAudioEventsListIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Spawner.generateEntities () [0x00000] in <00000000000000000000000000000000>:0 
-  at Spawner.Start () [0x00000] in <00000000000000000000000000000000>:0 
-  at PreparedVisualsSpawner.Start () [0x00000] in <00000000000000000000000000000000>:0 
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-
-Unloading 137 unused Assets to reduce memory usage. Loaded Objects now: 986583.
-Total: 1514.823100 ms (FindLiveObjects: 52.681900 ms CreateObjectMapping: 98.268100 ms MarkObjects: 1362.715400 ms  DeleteObjects: 1.157300 ms)
-
-Spawner rollback has not been implemented yet! Spawner - HaruspexOrianDrake Boss Spawner
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LE.SceneState.Nodes.StateNode:Exit(Context, InstantiatedContext)
-LE.SceneState.Core.StateGraph:ChangeState(StateNode)
-LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
-LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Core.SceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-SpawnerDefeatedListener:EntityDied(Dying)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-Dying:onEnter()
-StateController:switchCurrentState(State)
-State:TryToEnter()
-State:OnUpdateTick(Single)
-ObjectiveIncrementedAction:Invoke(Single)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
 NotImplementedException: The method or operation is not implemented.
   at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
   at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
@@ -1809,13 +1202,13 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: currently not available on il2cpp Line: -1)
 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 22)
 
-Unloading 1753 unused Assets to reduce memory usage. Loaded Objects now: 984039.
-Total: 1517.974900 ms (FindLiveObjects: 55.328800 ms CreateObjectMapping: 96.020400 ms MarkObjects: 1363.983200 ms  DeleteObjects: 2.641800 ms)
+Unloading 1725 unused Assets to reduce memory usage. Loaded Objects now: 988376.
+Total: 1453.697400 ms (FindLiveObjects: 43.276300 ms CreateObjectMapping: 87.556700 ms MarkObjects: 1319.727100 ms  DeleteObjects: 3.137000 ms)
 
-Unloading 8 Unused Serialized files (Serialized files now loaded: 24)
-UnloadTime: 10.554900 ms
+Unloading 16 Unused Serialized files (Serialized files now loaded: 22)
+UnloadTime: 21.509000 ms
 UpdateSystem should not be added to scenes. Please delete UpdateManager.
 UnityEngine.Logger:Log(LogType, Object, Object)
 UnityEngine.Debug:LogWarning(Object, Object)
@@ -1823,7 +1216,7 @@ LE.CustomUpdate.UpdateSystem:Awake()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Time to Single load 'Z32' 3,42 s
+Time to Single load 'A30' 2,69 s
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 <LoadSceneAsync>d__16:MoveNext()
@@ -1835,8 +1228,8 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 1499 unused Assets to reduce memory usage. Loaded Objects now: 1030691.
-Total: 1513.999600 ms (FindLiveObjects: 63.699400 ms CreateObjectMapping: 101.876600 ms MarkObjects: 1345.824700 ms  DeleteObjects: 2.598600 ms)
+Unloading 335 unused Assets to reduce memory usage. Loaded Objects now: 1012808.
+Total: 1444.298300 ms (FindLiveObjects: 47.599000 ms CreateObjectMapping: 86.209600 ms MarkObjects: 1308.925500 ms  DeleteObjects: 1.563700 ms)
 
 UILocalization: Component on text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
@@ -1845,911 +1238,10 @@ LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-IndexOutOfRangeException: Index was outside the bounds of the array.
-  at EquippedItemsNavigable.Select () [0x00000] in <00000000000000000000000000000000>:0 
-  at NavigationManager.TryToSelectNavigableFromIDAndSetIndex (NavigableID id, UnityEngine.Vector2Int index) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.SelectNavigableUnderPointer () [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.onPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.BaseInputModule.HandlePointerExitAndEnter (UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unable to Deselect currently selected ID: -1,-1 is Out of Bounds! Array size is: [3,4]
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-EquippedItemsNavigable:Deselect()
-NavigationManager:TryToSelectNavigableFromIDAndSetIndex(NavigableID, Vector2Int)
-ItemContainerUI:SelectNavigableUnderPointer()
-ItemContainerUIWithBorder:onPointerEnter(PointerEventData)
-ItemContainerUI:UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter(PointerEventData)
-System.EventHandler`1:Invoke(Object, TEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-IndexOutOfRangeException: Index was outside the bounds of the array.
-  at EquippedItemsNavigable.Select () [0x00000] in <00000000000000000000000000000000>:0 
-  at NavigationManager.TryToSelectNavigableFromIDAndSetIndex (NavigableID id, UnityEngine.Vector2Int index) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.SelectNavigableUnderPointer () [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.onPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.BaseInputModule.HandlePointerExitAndEnter (UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unable to Deselect currently selected ID: -1,-1 is Out of Bounds! Array size is: [3,4]
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-EquippedItemsNavigable:Deselect()
-NavigationManager:TryToSelectNavigableFromIDAndSetIndex(NavigableID, Vector2Int)
-ItemContainerUI:SelectNavigableUnderPointer()
-ItemContainerUIWithBorder:onPointerEnter(PointerEventData)
-ItemContainerUI:UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter(PointerEventData)
-System.EventHandler`1:Invoke(Object, TEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Uploading Crash Report
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at EventListener.triggerDialogueListeners (System.String dialogueIdentifier, UnityEngine.GameObject player) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at TimerListener.OnUpdateTick (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at StatefulQuestList+ObjectiveIncrementedAction.Invoke (System.Single damage) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.CustomUpdate.UpdateSystemCallbackManager.InternalUpdate (System.Collections.Generic.List`1[T] batches, System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.CustomUpdate.UpdateSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-EventListener:triggerDialogueListeners(String, GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-TimerListener:OnUpdateTick(Single)
-ObjectiveIncrementedAction:Invoke(Single)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 26)
-
-Unloading 917 unused Assets to reduce memory usage. Loaded Objects now: 1038241.
-Total: 1496.297500 ms (FindLiveObjects: 48.553300 ms CreateObjectMapping: 95.408600 ms MarkObjects: 1350.733000 ms  DeleteObjects: 1.602300 ms)
-
-Unloading 15 Unused Serialized files (Serialized files now loaded: 26)
-UnloadTime: 31.251700 ms
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'A06' 4,52 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 6685 unused Assets to reduce memory usage. Loaded Objects now: 1004672.
-Total: 1506.089200 ms (FindLiveObjects: 52.783700 ms CreateObjectMapping: 95.498200 ms MarkObjects: 1352.836100 ms  DeleteObjects: 4.970800 ms)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 25)
-
-Unloading 729 unused Assets to reduce memory usage. Loaded Objects now: 1010238.
-Total: 1531.541200 ms (FindLiveObjects: 55.039800 ms CreateObjectMapping: 94.854300 ms MarkObjects: 1380.309000 ms  DeleteObjects: 1.337800 ms)
-
-Unloading 16 Unused Serialized files (Serialized files now loaded: 25)
-UnloadTime: 18.920800 ms
-UpdateSystem should not be added to scenes. Please delete UpdateManager.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-LE.CustomUpdate.UpdateSystem:Awake()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'A10' 4,80 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 1126 unused Assets to reduce memory usage. Loaded Objects now: 1065653.
-Total: 1541.722300 ms (FindLiveObjects: 59.771900 ms CreateObjectMapping: 96.167000 ms MarkObjects: 1383.513200 ms  DeleteObjects: 2.269700 ms)
-
-[FMOD] Event not found: 
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
-LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
-PlayOneShotSound:PlayNonVoiceSound()
-LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
-LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
-LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Core.InstantiatedSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-EventListener:triggerDialogueListeners(String, GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[FMOD] Event not found: 
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
-LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
-PlayOneShotSound:PlayNonVoiceSound()
-LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
-LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
-LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Core.InstantiatedSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-EventListener:triggerDialogueListeners(String, GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Failed to create agent because it is not close enough to the NavMesh
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
-LE.AssetManagement.SceneReferenceManager:Instantiate(AssetReferenceGameObject, Vector3, Quaternion)
-ActorData:spawn(Vector3, Single, NetworkingPlayer, GameObject, PositionSyncType)
-SummonEntityOnDeath:Summon()
-SendBird.DisconnectHandler:Invoke()
-SelfDestroyer:die()
-DestroyAfterDuration:OnUpdateTick(Single)
-ObjectiveIncrementedAction:Invoke(Single)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
-
-[ line 648] 
-(Filename:  Line: 648)
-
-UILocalization: Component on Minimum Skill Level Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UILocalization: Component on text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
 LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Text (TMP) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Text (TMP) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on dropdown-title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on target was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on target (1) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on target (2) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on dropdown-title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on SectionTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Text (TMP) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on rulenametitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on dropdown-title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on dropdown-title (1) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on dropdown-title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on dropdown-title (5) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on dropdown-title (6) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on option-title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on option-explanation was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on input-title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Placeholder was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on input-title was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Placeholder was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Details Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Details Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on TextMeshPro Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on Details Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[FMOD] Event not found: 
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
-LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
-PlayOneShotSound:PlayNonVoiceSound()
-LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
-LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
-LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Core.InstantiatedSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-EventListener:triggerDialogueListeners(String, GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-player MainPlayer(Clone) died
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-StateController:switchCurrentState(State)
-State:TryToEnter()
-State:OnUpdateTick(Single)
-ObjectiveIncrementedAction:Invoke(Single)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on TextMeshPro Text (1) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-UILocalization: Component on TextMeshPro Text (2) was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[FMOD] Event not found: 
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
-LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
-PlayOneShotSound:PlayNonVoiceSound()
-LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
-LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
-LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Core.InstantiatedSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-EventListener:triggerDialogueListeners(String, GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-ErzaWaveSpawner (UnityEngine.GameObject) triggered: Wave Fight Completed
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-MovedToMinionAction:Invoke(Ability)
-WaveSpawner:spawnDeath(Dying)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-Dying:onEnter()
-StateController:switchCurrentState(State)
-State:TryToEnter()
-State:OnUpdateTick(Single)
-ObjectiveIncrementedAction:Invoke(Single)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-ErzaWaveSpawner (UnityEngine.GameObject) triggered: Wave Fight Completed
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-MovedToMinionAction:Invoke(Ability)
-WaveSpawner:spawnDeath(Dying)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-Dying:onEnter()
-StateController:switchCurrentState(State)
-State:TryToEnter()
-State:OnUpdateTick(Single)
-ObjectiveIncrementedAction:Invoke(Single)
-LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
-LE.CustomUpdate.UpdateSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 27)
-
-Unloading 6120 unused Assets to reduce memory usage. Loaded Objects now: 1058911.
-Total: 1567.245600 ms (FindLiveObjects: 59.632000 ms CreateObjectMapping: 95.157900 ms MarkObjects: 1405.503600 ms  DeleteObjects: 6.951800 ms)
-
-Unloading 16 Unused Serialized files (Serialized files now loaded: 27)
-UnloadTime: 48.468400 ms
-UpdateSystem should not be added to scenes. Please delete UpdateManager.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-LE.CustomUpdate.UpdateSystem:Awake()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'A30' 2,98 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-[FMOD] Event not found: 
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
-LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
-PlayOneShotSound:PlayNonVoiceSound()
-LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
-LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
-LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Core.InstantiatedSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
-LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-EventListener:triggerDialogueListeners(String, GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 703 unused Assets to reduce memory usage. Loaded Objects now: 1040007.
-Total: 1537.796500 ms (FindLiveObjects: 63.666100 ms CreateObjectMapping: 98.014600 ms MarkObjects: 1374.017100 ms  DeleteObjects: 2.098500 ms)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:BeginAssetLoad()
-UnityEngine.ResourceManagement.ResourceProviders.InternalOp:Start(ProvideHandle)
-UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider:Provide(ProvideHandle)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:Execute()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.GroupOperation:CompleteIfDependenciesComplete()
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass57_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
-UnityEngine.Events.UnityAction`1:Invoke(T0)
-DelegateList`1:Invoke(T)
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
-UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource:CompleteBundleLoad(AssetBundle)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
-UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource:GetAssetBundle()
-UnityEngine.ResourceManagement.ResourceProviders.AssetBundleResource:WaitForCompletionHandler()
-System.Func`1:Invoke()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:WaitForCompletion()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle:WaitForCompletion()
-UnityEngine.ResourceManagement.AsyncOperations.GroupOperation:InvokeWaitForCompletion()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:WaitForCompletion()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1:WaitForCompletion()
-UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:InvokeWaitForCompletion()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:WaitForCompletion()
-UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1:WaitForCompletion()
-LE.AssetManagement.SceneReferenceManager:Load(AssetReferenceGameObject, Boolean)
-LE.AssetManagement.SceneReferenceManager:LoadActor(ActorData, Boolean)
-LE.AssetManagement.SceneReferenceManager:PreloadScene(String)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-System.Action`1:Invoke(T)
-Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
-Cysharp.Threading.Tasks.DelayFramePromise:MoveNext()
-Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
-ApplyModifiersBeforeExternalStatsCalculationAction:Invoke()
-
-[ line 334] 
-(Filename:  Line: 334)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 24)
-
-Unloading 911 unused Assets to reduce memory usage. Loaded Objects now: 1048764.
-Total: 1535.855200 ms (FindLiveObjects: 50.661700 ms CreateObjectMapping: 100.162600 ms MarkObjects: 1383.806900 ms  DeleteObjects: 1.223700 ms)
-
-The referenced script on this Behaviour (Game Object '!ftraceLightmaps') is missing! 
-(Filename:  Line: 334)
-
-Unloading 17 Unused Serialized files (Serialized files now loaded: 24)
-UnloadTime: 31.482800 ms
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'A40' 4,87 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 4597 unused Assets to reduce memory usage. Loaded Objects now: 1058926.
-Total: 1571.632700 ms (FindLiveObjects: 57.702500 ms CreateObjectMapping: 95.802600 ms MarkObjects: 1414.198500 ms  DeleteObjects: 3.928800 ms)
-
-IndexOutOfRangeException: Index was outside the bounds of the array.
-  at EquippedItemsNavigable.Select () [0x00000] in <00000000000000000000000000000000>:0 
-  at NavigationManager.TryToSelectNavigableFromIDAndSetIndex (NavigableID id, UnityEngine.Vector2Int index) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.SelectNavigableUnderPointer () [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.onPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at ItemContainerUI.UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.BaseInputModule.HandlePointerExitAndEnter (UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unable to Deselect currently selected ID: -1,-1 is Out of Bounds! Array size is: [3,4]
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-EquippedItemsNavigable:Deselect()
-NavigationManager:TryToSelectNavigableFromIDAndSetIndex(NavigableID, Vector2Int)
-ItemContainerUI:SelectNavigableUnderPointer()
-ItemContainerUI:onPointerEnter(PointerEventData)
-ItemContainerUI:UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter(PointerEventData)
-System.EventHandler`1:Invoke(Object, TEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
-Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -2760,127 +1252,27 @@ LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-UILocalization: Component on MasterySkillTMP was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UILocalization: Component on NewSkillAnnouncement was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
 LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-UILocalization: Component on Passive Bonuses Header was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 500/50. Use DOTween.SetTweensCapacity to set it manually at startup
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogWarning(Object)
-LocalizationSystem.UILocalization:Start()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
-  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
-  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Default>d__8:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
-<HandleInteraction>d__3:MoveNext()
-LoadSceneInteraction:Interaction(GameObject)
-PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
-ConditionHandler:TryTriggerInteraction(GameObject)
-WorldAreaEnterListener:OnTriggerEnter(Collider)
- 
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
-
-Unloading 5478 unused Assets to reduce memory usage. Loaded Objects now: 1049113.
-Total: 1567.083400 ms (FindLiveObjects: 53.542000 ms CreateObjectMapping: 97.648200 ms MarkObjects: 1407.052700 ms  DeleteObjects: 8.839900 ms)
-
-The referenced script on this Behaviour (Game Object '!ftraceLightmaps') is missing! 
-(Filename:  Line: 334)
-
-Unloading 17 Unused Serialized files (Serialized files now loaded: 26)
-UnloadTime: 42.103900 ms
-No spawn found with TransitionInfo, Falling back to old spawn selection
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
-<PlacePlayer>d__19:MoveNext()
-PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
-<OnSceneLoadAsync>d__13:MoveNext()
-PlayerSpawnManager:onSceneLoad(String, String)
-System.Action`2:Invoke(T1, T2)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-Time to Single load 'A45' 2,70 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 656 unused Assets to reduce memory usage. Loaded Objects now: 998709.
-Total: 1542.894200 ms (FindLiveObjects: 58.845000 ms CreateObjectMapping: 93.785300 ms MarkObjects: 1387.814500 ms  DeleteObjects: 2.448900 ms)
-
-NotImplementedException: The method or operation is not implemented.
-  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
-  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService+<Waypoint>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
-  at LE.Services.Transitions.OfflineTransitionService.Waypoint (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateID) [0x00000] in <00000000000000000000000000000000>:0 
-  at UIWaypointStandard.LoadWaypointScene () [0x00000] in <00000000000000000000000000000000>:0 
-  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
-  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMousePress (Rewired.Integration.UnityUI.RewiredPointerInputModule+MouseButtonEventData data) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
-  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
-  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
-LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
-LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
-System.Action`3:Invoke(T1, T2, T3)
-LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
-LE.Services.Transitions.<Waypoint>d__11:MoveNext()
-LE.Services.Transitions.OfflineTransitionService:Waypoint(UserIdentity, String, Byte)
-UIWaypointStandard:LoadWaypointScene()
+DG.Tweening.Core.Debugger:LogWarning(Object, Tween)
+DG.Tweening.Core.TweenManager:GetTweener()
+DG.Tweening.DOTween:ApplyTo(DOGetter`1, DOSetter`1, T2, Single, ABSTweenPlugin`3)
+DG.Tweening.DOTween:ToArray(DOGetter`1, DOSetter`1, Vector3[], Single[])
+DG.Tweening.DOTween:Punch(DOGetter`1, DOSetter`1, Vector3, Single, Int32, Single)
+DG.Tweening.ShortcutExtensions:DOPunchScale(Transform, Vector3, Single, Int32, Single)
+DG.Tweening.DOTweenAnimation:CreateTween()
+DG.Tweening.DOTweenAnimation:Awake()
+SkillTree:open()
+SkillsPanelManager:openSkillTree(Ability)
+SpecialisedAbilityIcon:clicked()
 SendBird.DisconnectHandler:Invoke()
 UnityEngine.Events.InvokableCall:Invoke(Object[])
 UnityEngine.Events.UnityEvent:Invoke()
@@ -2892,46 +1284,12 @@ Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
 Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
 UnityEngine.EventSystems.EventSystem:Update()
  
-(Filename: currently not available on il2cpp Line: -1)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 24)
-
-Unloading 1707 unused Assets to reduce memory usage. Loaded Objects now: 996606.
-Total: 1524.489600 ms (FindLiveObjects: 46.433300 ms CreateObjectMapping: 93.369900 ms MarkObjects: 1381.403100 ms  DeleteObjects: 3.283100 ms)
-
-Unloading 8 Unused Serialized files (Serialized files now loaded: 24)
-UnloadTime: 12.094700 ms
-UpdateSystem should not be added to scenes. Please delete UpdateManager.
-UnityEngine.Logger:Log(LogType, Object, Object)
-UnityEngine.Debug:LogWarning(Object, Object)
-LE.CustomUpdate.UpdateSystem:Awake()
- 
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Time to Single load 'Z32' 3,54 s
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<LoadSceneAsync>d__16:MoveNext()
-SendBird.DisconnectHandler:Invoke()
-Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
-System.Action`1:Invoke(T)
-UnityEngine.AsyncOperation:InvokeCompletionEvent()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-
-Unloading 592 unused Assets to reduce memory usage. Loaded Objects now: 1037394.
-Total: 1552.492400 ms (FindLiveObjects: 62.768300 ms CreateObjectMapping: 97.165800 ms MarkObjects: 1390.683400 ms  DeleteObjects: 1.874600 ms)
-
-Uploading Crash Report
-Uploading Crash Report
-Uploading Crash Report
-Uploading Crash Report
-Uploading Crash Report
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: 2840 -> priority: 1 
-  Thread -> id: 24a4 -> priority: 1 
-  Thread -> id: 2044 -> priority: 1 
+  Thread -> id: 2634 -> priority: 1 
+  Thread -> id: df0 -> priority: 1 
+  Thread -> id: f3c -> priority: 1 
 No Alignment
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogError(Object)
@@ -2946,25 +1304,13 @@ Actor:OnDestroy()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-No Alignment
+playerActorSync doesnt have an UserIdentity
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:LogError(Object)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-No Alignment
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-ActorManager:RemoveFromList(Actor, Boolean)
-Actor:OnDestroy()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
-
-No Alignment
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogError(Object)
-ActorManager:RemoveFromList(Actor, Boolean)
-Actor:OnDestroy()
+LE.UI.Party.UnityUI.PartyOverviewPanel:OnPlayerGameplayActorLeft(PlayerActorSync)
+System.Action`1:Invoke(T)
+LE.Networking.PlayerEvents:InvokeEventWithErrorHandling(Action`1, TArg)
+PlayerActorSync:OnDestroy()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
