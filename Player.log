@@ -5382,3 +5382,290 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
 Unloading 666 unused Assets to reduce memory usage. Loaded Objects now: 1127733.
 Total: 1611.844100 ms (FindLiveObjects: 71.468900 ms CreateObjectMapping: 99.126900 ms MarkObjects: 1439.544300 ms  DeleteObjects: 1.703600 ms)
 
+UILocalization: Component on Text was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on DungeonPreamble was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on DungeonTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+NotImplementedException: The method or operation is not implemented.
+  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<Waypoint>d__11.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.Waypoint (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateID) [0x00000] in <00000000000000000000000000000000>:0 
+  at UIWaypointStandard.LoadWaypointScene () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMousePress (Rewired.Integration.UnityUI.RewiredPointerInputModule+MouseButtonEventData data) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
+LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
+System.Action`3:Invoke(T1, T2, T3)
+LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
+LE.Services.Transitions.<Waypoint>d__11:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:Waypoint(UserIdentity, String, Byte)
+UIWaypointStandard:LoadWaypointScene()
+SendBird.DisconnectHandler:Invoke()
+UnityEngine.Events.InvokableCall:Invoke(Object[])
+UnityEngine.Events.UnityEvent:Invoke()
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 26)
+
+Unloading 1712 unused Assets to reduce memory usage. Loaded Objects now: 1123832.
+Total: 1582.718800 ms (FindLiveObjects: 57.817500 ms CreateObjectMapping: 93.839600 ms MarkObjects: 1425.948100 ms  DeleteObjects: 5.113300 ms)
+
+The referenced script on this Behaviour (Game Object '!ftraceLightmaps') is missing! 
+(Filename:  Line: 334)
+
+Unloading 21 Unused Serialized files (Serialized files now loaded: 26)
+UnloadTime: 73.759800 ms
+Time to Single load 'A90' 4,66 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 2993 unused Assets to reduce memory usage. Loaded Objects now: 1037217.
+Total: 1561.172600 ms (FindLiveObjects: 51.924300 ms CreateObjectMapping: 93.451000 ms MarkObjects: 1412.682500 ms  DeleteObjects: 3.114500 ms)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Abandoned Rotfly Nest(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
