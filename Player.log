@@ -1344,3 +1344,74 @@ LocalizationSystem.UILocalization:Start()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+Uploading Crash Report
+IndexOutOfRangeException: Index was outside the bounds of the array.
+  at EquippedItemsNavigable.Select () [0x00000] in <00000000000000000000000000000000>:0 
+  at NavigationManager.TryToSelectNavigableFromIDAndSetIndex (NavigableID id, UnityEngine.Vector2Int index) [0x00000] in <00000000000000000000000000000000>:0 
+  at ItemContainerUI.SelectNavigableUnderPointer () [0x00000] in <00000000000000000000000000000000>:0 
+  at ItemContainerUI.onPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+  at ItemContainerUI.UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.EventHandler`1[TEventArgs].Invoke (System.Object sender, TEventArgs e) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.BaseInputModule.HandlePointerExitAndEnter (UnityEngine.EventSystems.PointerEventData currentPointerData, UnityEngine.GameObject newEnterTarget) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvent (System.Int32 playerId, System.Int32 pointerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.ProcessMouseEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at Rewired.Integration.UnityUI.RewiredStandaloneInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Unable to Deselect currently selected ID: -1,-1 is Out of Bounds! Array size is: [3,4]
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+EquippedItemsNavigable:Deselect()
+NavigationManager:TryToSelectNavigableFromIDAndSetIndex(NavigableID, Vector2Int)
+ItemContainerUI:SelectNavigableUnderPointer()
+ItemContainerUIWithBorder:onPointerEnter(PointerEventData)
+ItemContainerUI:UnityEngine.EventSystems.IPointerEnterHandler.OnPointerEnter(PointerEventData)
+System.EventHandler`1:Invoke(Object, TEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvent(Int32, Int32)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:ProcessMouseEvents()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Teeming Husk(Clone) is missing navMeshAgent
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SpeedManager:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
