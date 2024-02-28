@@ -734,3 +734,199 @@ Crosstales.BWF.BWFManager:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
+Failed to create agent because it is not close enough to the NavMesh
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(T, Vector3, Quaternion)
+LE.AssetManagement.SceneReferenceManager:Instantiate(AssetReferenceGameObject, Vector3, Quaternion)
+ActorData:spawn(Vector3, Single, NetworkingPlayer, GameObject, PositionSyncType)
+PlayerUtility:InstantiatePlayerActor(ActorData, NetworkingPlayer)
+LE.Services.<StartPlay>d__13:MoveNext()
+LE.Services.OfflineCharacterService:StartPlay(CharacterData, CancellationToken)
+LE.Services.<StartPlayWithCharacter>d__15:MoveNext()
+LE.Services.DefaultGameplayService:StartPlayWithCharacter(CharacterData, CancellationToken)
+<LoadCharacterByData>d__39:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+LE.Services.<ReturnWhenNotNull>d__69`1:MoveNext()
+Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`2:Run()
+SendBird.DisconnectHandler:Invoke()
+System.Action`1:Invoke(T)
+Cysharp.Threading.Tasks.UniTaskCompletionSourceCore`1:TrySetResult(TResult)
+Cysharp.Threading.Tasks.WaitUntilPromise:MoveNext()
+Cysharp.Threading.Tasks.Internal.PlayerLoopRunner:RunCore()
+ApplyModifiersBeforeExternalStatsCalculationAction:Invoke()
+
+[ line 648] 
+(Filename:  Line: 648)
+
+Initialising NonInteractableItemContainerUI Cursor, which was already active before its content was non-null.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+NonInteractableItemContainerUI:OnUpdateTick(Single)
+ObjectiveIncrementedAction:Invoke(Single)
+LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
+LE.CustomUpdate.UpdateSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 19)
+
+Unloading 96371 unused Assets to reduce memory usage. Loaded Objects now: 872271.
+Total: 1337.802600 ms (FindLiveObjects: 39.865600 ms CreateObjectMapping: 94.205500 ms MarkObjects: 1175.479200 ms  DeleteObjects: 28.251900 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 19)
+UnloadTime: 11.133600 ms
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+UpdateSystem should not be added to scenes. Please delete UpdateManager.
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+LE.CustomUpdate.UpdateSystem:Awake()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+No spawn found with TransitionInfo, Falling back to old spawn selection
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
+<PlacePlayer>d__19:MoveNext()
+PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
+<OnSceneLoadAsync>d__13:MoveNext()
+PlayerSpawnManager:onSceneLoad(String, String)
+System.Action`2:Invoke(T1, T2)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Time to Single load 'A30' 3,02 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 754 unused Assets to reduce memory usage. Loaded Objects now: 921260.
+Total: 1340.093200 ms (FindLiveObjects: 60.399200 ms CreateObjectMapping: 94.505100 ms MarkObjects: 1180.214000 ms  DeleteObjects: 4.974700 ms)
+
+[FMOD] Event not found: 
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+FMODUnity.RuntimeManager:PlayOneShot(String, Vector3)
+LE.Audio.Fmod.AudioService:PlayOneShot(String, Vector3)
+PlayOneShotSound:PlayNonVoiceSound()
+LE.SceneState.Nodes.StateNode:Enter(Context, InstantiatedContext)
+LE.SceneState.Nodes.BaseStateNode:TryProcessTrigger(Trigger, InstantiatedContext, PlayerActorSync)
+LE.SceneState.Core.StateGraph:TryProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Core.InstantiatedSceneStateGraph:ProcessTrigger(Trigger, PlayerActorSync)
+LE.SceneState.Interaction.StateTransitionInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+EventListener:triggerDialogueListeners(String, GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+WorldAreaEnterListener:OnTriggerEnter(Collider)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Description was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Description was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on EnduranceTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Label was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on WardTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Description was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on HealthTitle was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on ScalingTagsHeader was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UILocalization: Component on Baseclass was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
