@@ -5154,3 +5154,157 @@ UnityEngine.AsyncOperation:InvokeCompletionEvent()
 Unloading 651 unused Assets to reduce memory usage. Loaded Objects now: 1043930.
 Total: 1554.685600 ms (FindLiveObjects: 52.355300 ms CreateObjectMapping: 94.155900 ms MarkObjects: 1405.779100 ms  DeleteObjects: 2.394900 ms)
 
+Uploading Crash Report
+NotImplementedException: The method or operation is not implemented.
+  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<FromTownPortal>d__10.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.FromTownPortal (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalLogicController+<HandleReturnPortalAsync>d__9.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalLogicController.OnAttemptUse (PlayerActorSync player) [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalSync.ReceiveAttemptUse (PlayerActorSync playerActorSync) [0x00000] in <00000000000000000000000000000000>:0 
+  at Networking.Multiplayer.Interactables.Portals.PortalSync.SendAttemptUse () [0x00000] in <00000000000000000000000000000000>:0 
+  at SendBird.SendBirdClient+DisconnectHandler.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorldObjectClickListener.ObjectClick (UnityEngine.GameObject playerObject, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at WalkToInteractable.OnUpdateTick (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at StatefulQuestList+ObjectiveIncrementedAction.Invoke (System.Single damage) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.CustomUpdate.UpdateSystemCallbackManager.InternalUpdate (System.Collections.Generic.List`1[T] batches, System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.CustomUpdate.UpdateSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
+LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
+System.Action`3:Invoke(T1, T2, T3)
+LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
+LE.Services.Transitions.<FromTownPortal>d__10:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:FromTownPortal(UserIdentity)
+Networking.Multiplayer.Interactables.Portals.<HandleReturnPortalAsync>d__9:MoveNext()
+Networking.Multiplayer.Interactables.Portals.PortalLogicController:OnAttemptUse(PlayerActorSync)
+Networking.Multiplayer.Interactables.Portals.PortalSync:ReceiveAttemptUse(PlayerActorSync)
+Networking.Multiplayer.Interactables.Portals.PortalSync:SendAttemptUse()
+SendBird.DisconnectHandler:Invoke()
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+WorldObjectClickListener:ObjectClick(GameObject, Boolean)
+WalkToInteractable:OnUpdateTick(Single)
+ObjectiveIncrementedAction:Invoke(Single)
+LE.CustomUpdate.UpdateSystemCallbackManager:InternalUpdate(List`1, Single)
+LE.CustomUpdate.UpdateSystem:Update()
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 25)
+
+Unloading 266 unused Assets to reduce memory usage. Loaded Objects now: 1047671.
+Total: 1572.443900 ms (FindLiveObjects: 51.253300 ms CreateObjectMapping: 94.030500 ms MarkObjects: 1425.876600 ms  DeleteObjects: 1.283000 ms)
+
+Unloading 22 Unused Serialized files (Serialized files now loaded: 25)
+NullReferenceException: Object reference not set to an instance of an object.
+  at Networking.Multiplayer.Interactables.Portals.PortalVisualController.InitiateDestruction () [0x00000] in <00000000000000000000000000000000>:0 
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+UnloadTime: 35.647500 ms
+Time to Single load 'B10' 4,49 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 2504 unused Assets to reduce memory usage. Loaded Objects now: 1007492.
+Total: 1551.023500 ms (FindLiveObjects: 46.558300 ms CreateObjectMapping: 93.891200 ms MarkObjects: 1406.649600 ms  DeleteObjects: 3.924200 ms)
+
+NotImplementedException: The method or operation is not implemented.
+  at LE.Dungeons.ClientDungeonService.RemovePlayer (LE.Services.Models.UserIdentity userIdentity, System.Threading.CancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnPlayerLeave (LE.Services.Models.UserIdentity userIdentity) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor+<>c__DisplayClass16_0+<<OnUserTransitioning>g__OnUserTransitionAsync|0>d.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Dungeons.DungeonFloor.OnUserTransitioning (LE.Services.Models.UserIdentity user, LE.Services.Models.TransitionInfo transitionInfo, System.Boolean remainOnServer) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<DoTransitionAsync>d__7.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.DoTransitionAsync (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, LE.Services.Models.TransitionInfo transitionInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService+<Default>d__8.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LE.Services.Transitions.OfflineTransitionService.Default (LE.Services.Models.UserIdentity userIdentity, System.String targetScene, System.Byte gateId) [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction+<HandleInteraction>d__3.MoveNext () [0x00000] in <00000000000000000000000000000000>:0 
+  at LoadSceneInteraction.Interaction (UnityEngine.GameObject sourceObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at PlayFab.Events.PlayFabEvents+PlayFabResultEvent`1[TResult].Invoke (TResult result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ConditionHandler.TryTriggerInteraction (UnityEngine.GameObject interactingObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at WorldAreaEnterListener.OnTriggerEnter (UnityEngine.Collider enteringObject) [0x00000] in <00000000000000000000000000000000>:0 
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Cysharp.Threading.Tasks.UniTaskScheduler:PublishUnobservedTaskException(Exception)
+LE.Dungeons.<<OnUserTransitioning>g__OnUserTransitionAsync|0>d:MoveNext()
+LE.Dungeons.DungeonFloor:OnUserTransitioning(UserIdentity, TransitionInfo, Boolean)
+System.Action`3:Invoke(T1, T2, T3)
+LE.Services.Transitions.<DoTransitionAsync>d__7:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:DoTransitionAsync(UserIdentity, String, TransitionInfo)
+LE.Services.Transitions.<Default>d__8:MoveNext()
+LE.Services.Transitions.OfflineTransitionService:Default(UserIdentity, String, Byte)
+<HandleInteraction>d__3:MoveNext()
+LoadSceneInteraction:Interaction(GameObject)
+PlayFab.Events.PlayFabResultEvent`1:Invoke(TResult)
+ConditionHandler:TryTriggerInteraction(GameObject)
+WorldAreaEnterListener:OnTriggerEnter(Collider)
+ 
+(Filename: currently not available on il2cpp Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 29)
+
+Unloading 1428 unused Assets to reduce memory usage. Loaded Objects now: 1015820.
+Total: 1535.839400 ms (FindLiveObjects: 47.192600 ms CreateObjectMapping: 95.195100 ms MarkObjects: 1391.999800 ms  DeleteObjects: 1.451500 ms)
+
+Unloading 47 Unused Serialized files (Serialized files now loaded: 29)
+UnloadTime: 23.640700 ms
+No spawn found with TransitionInfo, Falling back to old spawn selection
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+PlayerSpawnManager:HandleDefaultTransition(Actor, TransitionInfo)
+<PlacePlayer>d__19:MoveNext()
+PlayerSpawnManager:PlacePlayer(UserIdentity, Actor, TransitionInfo, String, CancellationToken)
+<OnSceneLoadAsync>d__13:MoveNext()
+PlayerSpawnManager:onSceneLoad(String, String)
+System.Action`2:Invoke(T1, T2)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Time to Single load 'B6S10' 3,49 s
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<LoadSceneAsync>d__16:MoveNext()
+SendBird.DisconnectHandler:Invoke()
+Cysharp.Threading.Tasks.Internal.PooledDelegate`1:Run(T)
+System.Action`1:Invoke(T)
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 2707 unused Assets to reduce memory usage. Loaded Objects now: 1017218.
+Total: 1571.670700 ms (FindLiveObjects: 72.690300 ms CreateObjectMapping: 94.970300 ms MarkObjects: 1401.170200 ms  DeleteObjects: 2.839600 ms)
+
+UILocalization: Component on NewSkillAnnouncement was attached to Text component on Start. It's preferable for UILocalization to have reference set in editor.
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LocalizationSystem.UILocalization:Start()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
